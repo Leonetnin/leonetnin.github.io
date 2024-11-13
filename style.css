@@ -1,6 +1,7 @@
 body {
     font-family: system-ui;
     background: #000000;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-decoration: wavy;
     text-align: center;
 }
