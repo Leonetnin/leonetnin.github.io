@@ -5,6 +5,7 @@ body {
 }
 
 .title {
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -21,21 +22,24 @@ body {
 
 .island {
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: fixed;
+    margin: 0px 50%;
     ul {
+        max-width: 303px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
         background-color: rgb(28, 28, 28);
-        list-style: none;
-        margin: 0px;
-        padding: 0px;
+        list-style:none;
+        padding: 5px;
         border-radius: 10px;
     }
     a {
+        font-weight: 10;
         text-decoration: none;
         text-transform: uppercase;
         padding: 10px;
-        margin: 10px;
+        margin: 6px;
         color: #fff;
         border: 4px solid rgb(18,18,18);
         border-radius: 5px;
