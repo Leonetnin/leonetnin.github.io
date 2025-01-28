@@ -25,7 +25,6 @@ body {
     justify-content: center;
     margin: 0px 50%;
     ul {
-        max-width: 303px;
         position: fixed;
         display: flex;
         justify-content: center;
@@ -46,16 +45,21 @@ body {
         display:block;
         text-align: center;
         background-color: rgb(18, 18, 18);
+        text-wrap: nowrap;
     }
 }
 
 .gameisland {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 0px 50%;
+    align-items: center;
+    p {
+        margin-bottom: -10px;
+        font-size: 3.6em;
+        font-weight: 50;
+    }
     ul {
-        max-width: 190px;
-        min-width: 190px;
         background-color: rgb(28, 28, 28);
         list-style:none;
         padding: 5px;
@@ -73,20 +77,6 @@ body {
         display:block;
         text-align: center;
         background-color: rgb(18, 18, 18);
-    }
-}
-
-.gametitle {
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content: center;
-    p {
-        margin-bottom: -10px;
-        font-size: 3.6em;
-        font-weight: 400;
     }
 }
 
