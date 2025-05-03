@@ -1,5 +1,9 @@
-<object width="100" height="100">
-    <param name="game" value="PapaLouie2.swf">
-    <embed src="PapaLouie2.swf" width="100" height="100">
-    </embed>
-</object>
+<!DOCTYPE html>
+<html>
+    <h1>PAPA LOUIE!</h1>
+    <object width="100" height="100">
+        <param name="game" value="PapaLouie2.swf">
+        <embed src="PapaLouie2.swf" width="100" height="100">
+        </embed>
+    </object>
+</html>
