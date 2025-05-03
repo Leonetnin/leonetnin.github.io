@@ -1,0 +1,135 @@
+{
+  "registerProtocol": true,
+  "imageFolderPath": "Data/Images",
+  "logoFolderPath": "Data/Logos",
+  "playlistFolderPath": "Data/Playlists",
+  "jsonFolderPath": "Data",
+  "htdocsFolderPath": "Legacy/htdocs",
+  "platformFolderPath": "Data/Platforms",
+  "themeFolderPath": "Data/Themes",
+  "logoSetsFolderPath": "Data/LogoSets",
+  "metaEditsFolderPath": "Data/MetaEdits",
+  "extensionsPath": "Data/Extensions",
+  "dataPacksFolderPath": "Data/Games",
+  "browsePageGameScale": 0.087,
+  "browsePageShowExtreme": false,
+  "enableEditing": true,
+  "fallbackLanguage": "en",
+  "currentLanguage": "<auto>",
+  "browsePageLayout": 0,
+  "browsePageShowLeftSidebar": true,
+  "browsePageShowRightSidebar": true,
+  "browsePageLeftSidebarWidth": 320,
+  "browsePageRightSidebarWidth": 320,
+  "curatePageLeftSidebarWidth": 320,
+  "showDeveloperTab": false,
+  "currentTheme": "Metal\\theme.css",
+  "lastSelectedLibrary": "",
+  "gamesOrderBy": "title",
+  "gamesOrder": "ASC",
+  "defaultLibrary": "arcade",
+  "mainWindow": {
+    "maximized": false
+  },
+  "saveImportedCurations": true,
+  "keepArchiveKey": true,
+  "symlinkCurationContent": true,
+  "onDemandImages": true,
+  "onDemandImagesCompressed": true,
+  "onDemandBaseUrl": "https://infinity.unstable.life/images/",
+  "browserModeProxy": "localhost:22500",
+  "showLogSource": {},
+  "showLogLevel": {
+    "0": false,
+    "1": false,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true
+  },
+  "excludedRandomLibraries": [],
+  "appPathOverrides": [],
+  "tagFilters": [],
+  "tagFiltersInCurate": false,
+  "nativePlatforms": [],
+  "disableExtremeGames": false,
+  "showBrokenGames": false,
+  "minimizedHomePageBoxes": [],
+  "hideExtremeScreenshots": true,
+  "updateFeedUrl": "https://bluemaxima.org/flashpoint/updateFeed/stable.txt",
+  "fancyAnimations": true,
+  "searchLimit": 0,
+  "onlineManual": "https://flashpointproject.github.io/manual/",
+  "offlineManual": "",
+  "fpfssBaseUrl": "https://fpfss.unstable.life",
+  "groups": [],
+  "server": "Apache Webserver",
+  "curateServer": "Apache Webserver",
+  "shortcuts": {
+    "curate": {
+      "prev": [
+        "ctrl+arrowup",
+        "cmd+arrowup"
+      ],
+      "next": [
+        "ctrl+arrowdown",
+        "cmd+arrowdown"
+      ],
+      "load": [
+        "ctrl+o",
+        "cmd+o"
+      ],
+      "newCur": [
+        "ctrl+n",
+        "cmd+n"
+      ],
+      "deleteCurs": [
+        "ctrl+delete",
+        "cmd+delete"
+      ],
+      "exportCurs": [
+        "ctrl+s",
+        "cmd+s"
+      ],
+      "exportDataPacks": [
+        "ctrl+shift+s",
+        "cmd+shift+s"
+      ],
+      "importCurs": [
+        "ctrl+i",
+        "cmd+i"
+      ],
+      "refresh": [
+        "ctrl+r",
+        "cmd+r"
+      ],
+      "run": [
+        "ctrl+t",
+        "cmd+t"
+      ],
+      "runMad4fp": [
+        "ctrl+shift+t",
+        "cmd+shift+t"
+      ]
+    }
+  },
+  "gameDataSources": [],
+  "gameMetadataSources": [],
+  "enablePlaytimeTracking": true,
+  "enablePlaytimeTrackingExtreme": true,
+  "enableVerboseLogging": false,
+  "screenshotPreviewMode": 0,
+  "screenshotPreviewDelay": 250,
+  "singleUsePrompt": {
+    "badAntiVirus": false
+  },
+  "useStoredViews": true,
+  "storedViews": [],
+  "useCustomViews": false,
+  "loadViewsText": true,
+  "customViews": [],
+  "defaultOpeningPage": "/",
+  "hideNewViewButton": false,
+  "autoClearWininetCache": false,
+  "useSelectedGameScroll": false
+}
