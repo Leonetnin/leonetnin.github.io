@@ -1,0 +1,50 @@
+#Noels självkörande bilsak
+
+import random
+import math
+import os
+import time
+
+svar = []
+signifikaplatser = ["skolan", "hemma", "jobbet", "vet inte","nej","bakom dig","framme","månen","jorden","solen","stan","noelstaxi ab","sverige","usa","örviken","skelleftehamn","bergsbyn","anderstorp","norrvalla","parken","sara kulturhus","sörböle","norrböle","ingenstans","någonstans"]
+platsrelateradesvar = ["Jahopp där ser man! En riktig pluggis är du eller? Med tanke på de betyg du får i skolan bör du stanna där. Ba skämtar, din taxi kommer snart.","Borta bra men hemma bäst! Eller hur? Nä juste, du var ju just på väg därifrån... Aja, din taxi anländer snart.","Get that bag! (Alltså slang för 'Få de pengarna!', för att uppmuntra ditt troligen inte muntra arbetsliv. Kommer snart med taxin btw. )","Om du inte vet, hur förväntar du dig då att vi ska hitta dig?? Ers, det spelar ingen roll, vi visste din plats redan från början men ville bara att du skulle fylla i onödiga formulär for the fun of it. En taxi anländer snart till dig...","Jo, du har inget val längre, vi kommer med taxin inom kort (det kommer inte bli billigt hörru).","Du ljuger, jag är bokstavligen ett datorprogram, du kan inte befinna dig bakom mig, det är fysiskt omöjligt. En taxi är påväg till din icke-digitala position inom kort.","Då antar jag att en taxi inte behövs? Om du ändå är framme? Det spelar ingen roll, vi kommer ändå med taxin, mer pengar för oss.","Månen? Du får stanna där, vi har inte råd med rymdtaxi än. Ring tillbaka om ett tag. Vänta! NASA ringde, de är påväg med en av deras rymdtaxis (vi får 50 procent av vinsten)","Wow, bara wow. Du kunde inte varit mer specifik. Aja, vi åker väl till jorden då...","Hur kunde du göra detta samtal då? Det är så långt bort att du inte borde nå sateliterna. Och som om det vore det största problemet, du brinner ju upp!","Shtorshtan eller? Vi kommer så fort som möjligt!","Va!? Är du på NoelsTaxi AB!!!??? Det är galet, bilen står ju bara just utanför byggnaden, du får gå dit själv.","HUH!? SKÄMTAR DU? Vi kommer till sverige då (även fast vi redan är där)","Finns det inte några alternativ där i USA? Inte? Ok, taxin kommer när som helst.","Oj! Det är ju den bästa byn i världen! Vi kommer direkt med taxin!","Även fast det verkar lite farligt, åker vi för din skull genom det kriminella skelleftehamn.","Byn av berg? Det kommer vara en utmaning att bestiga dem med bilen, men vi antar att det får funka.","Varför får Anders ha ett eget torp? Livet är orättvist, vi kommer snart.","Norvalla av alla ställen, okej visst, kanske svänger förbi edda på vägen (vi kommer snart med taxin).","Trevlig dag i parken eller? En taxi kommer snart.","Har du tänkt på att det bara tar en tändsticka för att bränna ned den där byggnaden, en pyromanisk taxi kommer snart.","Varför är du i sörböle, det är astråkigt där. Vi kommer väl ändå med en taxi.","Norrböle är typ som sörböle, fast barra... mer norrut? Äh, vi kommer inom kort.", "Då blev ju detta väldigt svårt väldigt snabbt, hur ska vi skicka en bil ingenstans? Ers, vi får lösa det.","Det är väl klart att du är någonstans, vi hämtar dig då, mr. någon."]
+generellasvar = ["En taxi kommer snart till ","Bara ett tag innan taxin anländer till ","Tack för ditt framtida tålamod! Det kommer alltså ta ett litet tag innan taxin är framme vid ", "NoelsTaxi ABs egna taxi rullar snart fram till ", "Taxin kommer snart till ", "Om ett tag kommer en taxi till ", "Den som väntar på något gott väntar aldrig för länge! Taxin kommer snart till "]
+säte1,säte2,säte3,säte4=[],[],[],[]
+
+def clear():
+    os.system("cls")
+
+def svara(fråga, type):
+    if fråga=="enter":
+        input("\n[ TRYCK PÅ ENTER FÖR ATT FORTSÄTTA ]")
+        clear()
+    else:
+        if type=="int":
+            svar.append(int(input(fråga)))
+        else:
+            svar.append(input(fråga).lower())
+        clear()
+
+clear()
+print("Välkommen till NoelsTaxi AB, det första självkörande taxi företaget gjort av en inkompetent tonåring!\n\nFör att vi ska veta vart bilen ska skickas så måste vi få veta vart du just nu befinner dig.\n\n")
+svara("ANGE PLATS FÖR UPPHÄMTNING: ","")
+try:
+    signifikaplatser.index(svar[len(svar)-1])
+except:
+    print("\n"+generellasvar[random.randint(0,6)]+svar[len(svar)-1]+".")  
+else:
+    print("\n"+platsrelateradesvar[signifikaplatser.index(svar[len(svar)-1])])
+svara("enter","")
+waittime = random.randint(3,7)
+for i in range(waittime):
+    clear()
+    print("Taxin anländer om "+str(waittime-i)+" sekunder.")
+    time.sleep(1)
+clear()
+print("Taxin är framme vid "+svar[len(svar)-1]+" nu!")
+svara("enter","")
+svara("Före du hoppar in, så måste du specifiera antalet personer som ska sitta i bilen, därför det kostar mer om fler ska åka (och det hjälper lösa vissa etiska dilemman hehe).","int")
+if svar[len(svar)-1]<5:
+    if svar[len(svar)-1]>0:
+        for i in range(svar[len(svar)-1]):
+            pass
