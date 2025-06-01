@@ -19,6 +19,7 @@ säten = {
 def clear():
     os.system("cls")
 
+#Simplifyar processen att bli frågad, obs: måste ha något i som typ, annars får den error
 def svara(fråga, type):
     if fråga=="enter":
         input("\n[ TRYCK PÅ ENTER FÖR ATT FORTSÄTTA ]")
@@ -31,6 +32,7 @@ def svara(fråga, type):
         clear()
 
 clear()
+#intro
 print("Välkommen till NoelsTaxi AB, det första självkörande taxi företaget gjort av en inkompetent tonåring!\n\nFör att vi ska veta vart bilen ska skickas så måste vi få veta vart du just nu befinner dig.\n\n")
 svara("ANGE PLATS FÖR UPPHÄMTNING: ","")
 try:
@@ -40,6 +42,7 @@ except:
 else:
     print("\n"+platsrelateradesvar[signifikaplatser.index(svar[len(svar)-1])])
 svara("enter","")
+#Taxi vätningstid
 waittime = random.randint(3,7)
 for i in range(waittime):
     clear()
@@ -48,17 +51,28 @@ for i in range(waittime):
 clear()
 print("Taxin är framme vid ",svar[len(svar)-1]," nu!")
 svara("enter","")
+#Vilka åker med förhör
 svara("Före du hoppar in, så måste du specifiera antalet personer som ska sitta i bilen, därför det kostar mer om fler ska åka (och det hjälper lösa vissa etiska dilemman hehe).","int")
 if svar[len(svar)-1]<5:
     if svar[len(svar)-1]>0:
         for i in range(svar[len(svar)-1]):
             svara("Vilket kön är person "+str(i+1)+"? (svara i formatet: 'man' eller 'kvinna'): ","str")
             säten["säte"+str(i+1)].append(svar[len(svar)-1])
-            svara("Vilken ålder är person "+str(i+1)+"? (svara i formatet t.ex: 28): ","str")
+            svara("Hur gammal är person "+str(i+1)+"? (svara i formatet t.ex: 28): ","str")
             säten["säte"+str(i+1)].append(svar[len(svar)-1])
             svara("Vad jobbar person "+str(i+1)+" som? (svara i formatet: 'doktor' eller 'arbetslös' eller valfritt arbete): ","str")
             säten["säte"+str(i+1)].append(svar[len(svar)-1])
-            svara("Är person "+str(i+1)+" gravid just nu? (svara i formatet: 'ja' eller 'nej'): ","str")
-            säten["säte"+str(i+1)].append(svar[len(svar)-1])
+            #kollar om en "nog gammal" (enligt lag) kvinna är gravid, alltså 15 i Sverige.
+            if säten["säte"+str(i+1)][0]=="kvinna" and säten["säte"+str(i+1)][1]>=15:
+                svara("Är person "+str(i+1)+" gravid just nu? (svara i formatet: 'ja' eller 'nej'): ","str")
+                säten["säte"+str(i+1)].append(svar[len(svar)-1])
+    else:
+        print("Det är för lite, bro tänk vettigt")
+elif svar[len(svar)-1]>50:
+    print("No way att du tror att det faktiskt hade rymmts ", svar[len(svar)-1]," personer i en taxi, det här är inget skämt.")
+else:
+    print("För många, det här är ingen buss.")
+svara("enter","")
 
-print(säten)
+#Faktiskt själva resan dit.
+
