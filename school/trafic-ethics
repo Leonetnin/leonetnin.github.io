@@ -6,6 +6,31 @@ import os
 import time
 
 svar = []
+vikter = {
+    "doktor":[50,1.5],
+    "byggarbetare":[50,2],
+    "arbetslös":[0,1],
+    "studerande":[20,1],
+    "lönnmördare":[-150,-1],
+    "politiker":[-30,0.5],
+    "NoelsTaxi AB platinum prenumerant":[100,2],
+    "lärare":[30,1.5],
+    "bankarbetare":[10,0.75],
+    "programmerare":[0.5,0.5],
+    "städerska":[1,1],
+    "lobbyist":[-40,0.5],
+    "kriminell":[-15,0.5],
+    "grovt kriminell":[-50,-1],
+    "hatare":[-20,-0.5], #Rasist, sexist, homofob, narcissist, trakasserist, cyklist.
+    "polis":[30,1.5],
+    "knarklangare":[-30,-1],
+    "forskare":[40,1],
+    "cyklist":[-0.5,1.1],
+    "hjälmare":[0, 0.75], #Gäller för all typ av utrustning / skyddsredskap
+    "mördare":[-75,-1],
+    "seriemördare":[-125,-1]
+}
+walterwhite = 100+vikter["lärare"][0]+vikter["mördare"][0]+vikter["grovt kriminell"][0]+vikter["knarklangare"][0]
 signifikaplatser = ["skolan", "hemma", "jobbet", "vet inte","nej","bakom dig","framme","månen","jorden","solen","stan","noelstaxi ab","sverige","usa","örviken","skelleftehamn","bergsbyn","anderstorp","norrvalla","parken","sara kulturhus","sörböle","norrböle","ingenstans","någonstans"]
 platsrelateradesvar = ["Jahopp där ser man! En riktig pluggis är du eller? Med tanke på de betyg du får i skolan bör du stanna där. Ba skämtar, din taxi kommer snart.","Borta bra men hemma bäst! Eller hur? Nä juste, du var ju just på väg därifrån... Aja, din taxi anländer snart.","Get that bag! (Alltså slang för 'Få de pengarna!', för att uppmuntra ditt troligen inte muntra arbetsliv. Kommer snart med taxin btw. )","Om du inte vet, hur förväntar du dig då att vi ska hitta dig?? Ers, det spelar ingen roll, vi visste din plats redan från början men ville bara att du skulle fylla i onödiga formulär for the fun of it. En taxi anländer snart till dig...","Jo, du har inget val längre, vi kommer med taxin inom kort (det kommer inte bli billigt hörru).","Du ljuger, jag är bokstavligen ett datorprogram, du kan inte befinna dig bakom mig, det är fysiskt omöjligt. En taxi är påväg till din icke-digitala position inom kort.","Då antar jag att en taxi inte behövs? Om du ändå är framme? Det spelar ingen roll, vi kommer ändå med taxin, mer pengar för oss.","Månen? Du får stanna där, vi har inte råd med rymdtaxi än. Ring tillbaka om ett tag. Vänta! NASA ringde, de är påväg med en av deras rymdtaxis (vi får 50 procent av vinsten)","Wow, bara wow. Du kunde inte varit mer specifik. Aja, vi åker väl till jorden då...","Hur kunde du göra detta samtal då? Det är så långt bort att du inte borde nå sateliterna. Och som om det vore det största problemet, du brinner ju upp!","Shtorshtan eller? Vi kommer så fort som möjligt!","Va!? Är du på NoelsTaxi AB!!!??? Det är galet, bilen står ju bara just utanför byggnaden, du får gå dit själv.","HUH!? SKÄMTAR DU? Vi kommer till sverige då (även fast vi redan är där)","Finns det inte några alternativ där i USA? Inte? Ok, taxin kommer när som helst.","Oj! Det är ju den bästa byn i världen! Vi kommer direkt med taxin!","Även fast det verkar lite farligt, åker vi för din skull genom det kriminella skelleftehamn.","Byn av berg? Det kommer vara en utmaning att bestiga dem med bilen, men vi antar att det får funka.","Varför får Anders ha ett eget torp? Livet är orättvist, vi kommer snart.","Norvalla av alla ställen, okej visst, kanske svänger förbi edda på vägen (vi kommer snart med taxin).","Trevlig dag i parken eller? En taxi kommer snart.","Har du tänkt på att det bara tar en tändsticka för att bränna ned den där byggnaden, en pyromanisk taxi kommer snart.","Varför är du i sörböle, det är astråkigt där. Vi kommer väl ändå med en taxi.","Norrböle är typ som sörböle, fast barra... mer norrut? Äh, vi kommer inom kort.", "Då blev ju detta väldigt svårt väldigt snabbt, hur ska vi skicka en bil ingenstans? Ers, vi får lösa det.","Det är väl klart att du är någonstans, vi hämtar dig då, mr. någon."]
 generellasvar = ["En taxi kommer snart till ","Bara ett tag innan taxin anländer till ","Tack för ditt framtida tålamod! Det kommer alltså ta ett litet tag innan taxin är framme vid ", "NoelsTaxi ABs egna taxi rullar snart fram till ", "Taxin kommer snart till ", "Om ett tag kommer en taxi till ", "Den som väntar på något gott väntar aldrig för länge! Taxin kommer snart till "]
@@ -31,6 +56,12 @@ def svara(fråga, type):
             svar.append(input(fråga).lower())
         clear()
 
+def encounter(input):
+    victims=[]
+    for person in range(random.randint(1,3))
+    print("Ånej! ", len(victims), " personer är på vägen")
+    print("")
+
 clear()
 #intro
 print("Välkommen till NoelsTaxi AB, det första självkörande taxi företaget gjort av en inkompetent tonåring!\n\nFör att vi ska veta vart bilen ska skickas så måste vi få veta vart du just nu befinner dig.\n\n")
@@ -42,7 +73,7 @@ except:
 else:
     print("\n"+platsrelateradesvar[signifikaplatser.index(svar[len(svar)-1])])
 svara("enter","")
-#Taxi vätningstid
+#Taxi väntningstid
 waittime = random.randint(3,7)
 for i in range(waittime):
     clear()
@@ -62,7 +93,6 @@ if svar[len(svar)-1]<5:
             säten["säte"+str(i+1)].append(svar[len(svar)-1])
             svara("Vad jobbar person "+str(i+1)+" som? (svara i formatet: 'doktor' eller 'arbetslös' eller valfritt arbete): ","str")
             säten["säte"+str(i+1)].append(svar[len(svar)-1])
-            #kollar om en "nog gammal" (enligt lag) kvinna är gravid, alltså 15 i Sverige.
             if säten["säte"+str(i+1)][0]=="kvinna" and säten["säte"+str(i+1)][1]>=15:
                 svara("Är person "+str(i+1)+" gravid just nu? (svara i formatet: 'ja' eller 'nej'): ","str")
                 säten["säte"+str(i+1)].append(svar[len(svar)-1])
@@ -89,3 +119,5 @@ svara("enter","")
 
 #SJÄLVA RESAN
 
+for i in range(random.randint(2,5)):
+    encounter()
