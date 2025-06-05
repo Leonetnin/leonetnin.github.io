@@ -58,9 +58,10 @@ def svara(fråga, type):
 
 def encounter(input):
     victims=[]
-    for person in range(random.randint(1,3))
+    for person in range(random.randint(1,3)):
+        victmis.append(vikter[random.randint(len(vikter))])
     print("Ånej! ", len(victims), " personer är på vägen")
-    print("")
+    print("Dödade dem!")
 
 clear()
 #intro
@@ -121,3 +122,5 @@ svara("enter","")
 
 for i in range(random.randint(2,5)):
     encounter()
+
+print("Varsågod för skjutsen! hejdå!")
