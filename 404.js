@@ -1,7 +1,25 @@
 let url = window.location.toString()
 if (url.startsWith("https://noelastrom.se/wikis/iOSNotes/MathNotes/Commands/")){
+    let xhttp = new XMLHttpRequest
+    xhttp.onreadystatechange = function(){
+        if (this.readyState == 4 && this.status==200){
+            onCommandsLoaded(xhttp.responseText)
+            
+        }
+    }
+    xhttp.open("GET", "wikis/iOSNotes/MathNotes/Commands/commands.json", true)
+    xhttp.send(null)
+
+    function onCommandsLoaded(input){
+        let commands = JSON.parse(input)
+        let p_command=document.createElement("p")
+        p_command.innerHTML=commands[document.body.appendChild(h1_command)].description
+        document.body.appendChild(p_command)
+    }
+
     let h1_command=document.createElement("h1")
     h1_command.innerHTML="Command sumting"
+
     document.body.appendChild(h1_command)
 } else if (url.startsWith("http://127")){
     let h1_local = document.createElement("h1")
