@@ -1,0 +1,62 @@
+html, body {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color: rgb(96, 88, 142);
+}
+
+b {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: -15px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+}
+
+input {
+    margin-top: 0px;
+    padding: 5px;
+    border-radius: 0;
+    background-color: rgb(123, 139, 218);
+    border-style:solid;
+    border-left: 0;
+    border-color: black;
+    border-width: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+    outline-style: none;
+}
+
+label {
+    margin-top: 0px;
+    padding: 5px;
+    border-radius: 0;
+    background-color: rgb(123, 139, 218);
+    border-style:solid;
+    border-color: black;
+    border-width: 4px;
+    border-right: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+}
+
+button {
+    margin-top: 0px;
+    padding: 5px;
+    border-radius: 0;
+    background-color: rgb(123, 139, 218);
+    border-style:solid;
+    border-color: black;
+    border-width: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+}
+
+#_canvas {
+    position: relative;
+    background-color: rgb(95, 126, 158);
+
+}
