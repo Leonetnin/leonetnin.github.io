@@ -1,0 +1,12 @@
+{
+    "students":{
+        "studenttemp":{
+            "name":"John Doe",
+            "personnummer":"200801011234"
+        },
+        "nathan":{
+            "name":"Nathan Zellman",
+            "personnummer":"200801011234"
+        }
+    }
+}
