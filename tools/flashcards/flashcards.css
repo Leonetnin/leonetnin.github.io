@@ -1,0 +1,10 @@
+html, body{
+    background-color: blue;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+}
+canvas{
+    position: relative;
+}
