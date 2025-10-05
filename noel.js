@@ -63,16 +63,47 @@ function circle(x, y, radius, color, lineWidth) {
     ellipse(x, y, radius, radius, color, lineWidth)
 }
 
-function text(text, x, y, size = 24, color="black", font = size+"px Serif",width=10000) {
+function text(text, x=W/2, y=200, size = 24, color="black", font = size+"px Serif", align="center",width=10000, maxWidth=100000, fillOut=false) {
     ctx.fillStyle = color
     ctx.font = font
-    ctx.textAlign="center"
+    ctx.textAlign=align
     ctx.shadowOffsetX=1
     ctx.shadowOffsetY=1
     ctx.shadowColor="gray"
-    ctx.fillText(text,x,y,width)
+    let lines = (text+"").split("\n")
+    for (let i=0; i<lines.length+1;i++){
+        if(ctx.measureText(lines[i]).width>maxWidth){
+            let cutoffWidth = 0
+            let choppedUpText = lines[i].split("")
+            let j=choppedUpText.length-1;
+            while (ctx.measureText(lines[i]).width-cutoffWidth>maxWidth){
+                cutoffWidth+=ctx.measureText(choppedUpText[j]).width
+                j-=1
+            }
+            choppedUpText[j]="\n"
+            lines[i] = choppedUpText.join("")
+            lines = lines.join("\n")
+            lines = (lines+"").split("\n")
+        }
+    }
+    for (let i=0; i<lines.length;i++){
+        let spaceWidth = ctx.measureText(" ").width
+        if (fillOut){
+            let padding=repeatStr(" ",Math.floor((maxWidth-ctx.measureText(lines[i]).width)/spaceWidth/2))
+            lines[i]=padding+lines[i]+padding
+        }
+        ctx.fillText(lines[i],x,y+(i)*(size)-(lines.length-1)*size/2, width)
+    }
     ctx.shadowOffsetX=0
     ctx.shadowOffsetY=0
+}
+
+function repeatStr(stringInput, times){
+    let result = ""
+    for (let i=0; i<times;i++){
+        result+=stringInput
+    }
+    return result
 }
 
 function clear(){
@@ -118,6 +149,11 @@ function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor
     ctx.closePath();
     ctx.fill();
     ctx.stroke();
+}
+
+function button(name="Button", x=0, y=0, width=ctx.measureText(name).width, height=50, color="white", size=24) {
+    rectangle(x,y,width,height, color, 0, false)
+    text(name,x+4,y+size+7,0,"black",size+"px Serif", "left")
 }
 
 let update = null;
@@ -184,8 +220,10 @@ function terminal(){
         _terminalActivated=true
         let _inputField = document.createElement("input")
         let _inputSend = document.createElement("button")
+        _inputField.id="terminalInput"
+        _inputSend.id="terminalSend"
         _inputSend.innerHTML=">"
-        _inputSend.onclick=function () {alert(EvalError(_inputField.value)); _inputField.value=""}
+        _inputSend.onclick=function () {eval(_inputField.value); _inputField.value=""}
         document.body.appendChild(_inputField)
         document.body.appendChild(_inputSend)
     }
@@ -193,6 +231,8 @@ function terminal(){
 
     if (pressed_keys.includes("Escape")){
         _terminalActivated=false
+        document.body.removeChild(document.getElementById("terminalInput"))
+        document.body.removeChild(document.getElementById("terminalSend"))
     } else {
         requestAnimationFrame(terminal)
     }
@@ -318,5 +358,3 @@ async function read(path) {
     })
     return(await filepromise)
 }
-
-terminal()
