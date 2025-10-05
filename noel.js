@@ -13,6 +13,8 @@ canvas.height = window.innerHeight
 document.body.appendChild(canvas)
 let H = window.innerHeight
 let W = window.innerWidth
+let _terminalActivated = false
+
 function toRadians(degrees) {
     return degrees * Math.PI/180
 }
@@ -119,8 +121,12 @@ function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor
 }
 
 let update = null;
+let _delta = 0;
+let _previousTimeStamp = 0
 function _updateHandler(){
-    update?.();
+    _delta = document.timeline.currentTime - _previousTimeStamp
+    _previousTimeStamp=document.timeline.currentTime
+    update?.(_delta);
     requestAnimationFrame(_updateHandler);
 }
 _updateHandler()
@@ -167,6 +173,28 @@ function _keyboard(data) {
     }
     if (data.type == "keyup") {
         pressed_keys.splice(pressed_keys.indexOf(data.key), 1)
+    }
+    if (pressed_keys.includes("Shift") && pressed_keys.includes("ArrowRight") && pressed_keys.includes("T") && _terminalActivated==false){
+        terminal()
+    }
+}
+
+function terminal(){
+    if (_terminalActivated==false){
+        _terminalActivated=true
+        let _inputField = document.createElement("input")
+        let _inputSend = document.createElement("button")
+        _inputSend.innerHTML=">"
+        _inputSend.onclick=function () {alert(EvalError(_inputField.value)); _inputField.value=""}
+        document.body.appendChild(_inputField)
+        document.body.appendChild(_inputSend)
+    }
+    text("Terminal",W/2,50,48,"rgba(0, 0, 0, 0.5)")
+
+    if (pressed_keys.includes("Escape")){
+        _terminalActivated=false
+    } else {
+        requestAnimationFrame(terminal)
     }
 }
 
@@ -290,3 +318,5 @@ async function read(path) {
     })
     return(await filepromise)
 }
+
+terminal()

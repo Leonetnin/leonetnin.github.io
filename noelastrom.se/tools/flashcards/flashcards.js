@@ -9,16 +9,18 @@ let cardWidth = 300
 let cardSide = 1
 document.body.style.backgroundColor=c_bgc
 let flipping = false
-let flipSpeed = 30
+let flipSpeed = 20
 let cardColor = "rgb(255,255,255)"
 let testShape = [0,0,0,200,cardWidth,200,cardWidth,0]
 let cardHeight={"left":200,"right":200}
+let cardDimensions = {"left":200, "bottom":300, "right":200, "top":300,"perspective":1.5}
 let edit=null
 let editColor="rgb(50,50,50)"
 let showingPointer = false
 let cooldown=0;
+let flipSide = 1
 
-update = () => {
+update = (delta) => {
     testShape = [0,-cardHeight.left/2,0,cardHeight.left/2,cardWidth,cardHeight.right/2,cardWidth,-cardHeight.right/2]
     clear()
     text(c_title,W/2,100,48,(edit=="title")?(editColor):("black"))
@@ -26,24 +28,27 @@ update = () => {
     foursided(W/2-cardWidth/2,H/2,testShape,"white",true)
     shape(W/2+130,H/2+110,[0,0,0,30,20,15],"black",2,"rgb(50,80,50)")
     shape(W/2-150,H/2+110,[0,15,20,0,20,30],"black",2,"rgb(50,80,50)")
-    if (justPressed(" ") && edit==null){
+    if (justPressed(" ") && edit==null && flipping==false){
+        flipSide=cardSide
         flipping=true
     }
     if (cardSide==1){
-        text("              "+c_question.replace("A","B")+"              ",W/2,H/2,24,(edit=="question")?(editColor):("black"),"24px Serif", Math.abs(cardWidth))
+        text("                  "+c_question.replace("A","B")+"                  ",W/2,H/2,24,(edit=="question")?(editColor):("black"),"24px Serif", Math.abs(cardWidth))
     } else {
-        text("              "+c_answer+"              ",W/2,H/2,24,(edit=="answer")?(editColor):("black"),"24px Serif", Math.abs(cardWidth))
+        text("                  "+c_answer+"                    ",W/2,H/2,24,(edit=="answer")?(editColor):("black"),"24px Serif", Math.abs(cardWidth))
     }
     if (flipping) {
-        if (cardWidth-flipSpeed>-300){
-            cardWidth-=flipSpeed
-            cardHeight.left+=5*cardSide
-            cardHeight.right-=5*cardSide 
+        if ((cardWidth-flipSpeed*flipSide)*flipSide>-300*flipSide){
+            let mval=cardDimensions.right*cardDimensions.perspective
+            let kval = cardDimensions.right*(cardDimensions.perspective-1)/cardDimensions.top
+            cardWidth-=flipSpeed*flipSide
+            cardHeight.left=kval*Math.abs(cardWidth)+mval-cardDimensions.left
+            cardHeight.right=-kval*Math.abs(cardWidth)+mval
             if (cardWidth==0){
                 cardSide *=-1
             }
         } else {
-            cardWidth=300
+            cardWidth=300*cardSide
             cardHeight.left=200
             cardHeight.right=200
             flipping=false
