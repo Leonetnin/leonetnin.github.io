@@ -1,15 +1,9 @@
 let framerate = null
 let delta = 0;
 let test=0
-let fontSize=50
+let fontSize=24
+nalert("goof")
 update = (delta) => {
     clear()
-    button(" + ", W/2-12,H/2-25,function(){test+=1}, 0,0, "white", Math.abs(fontSize), null)
-    text(test)
-    if (pressed_keys.includes("ArrowLeft")){
-        fontSize-=1
-    }
-    if (pressed_keys.includes("ArrowRight")){
-        fontSize+=1
-    }
+    button("Click", W/2-25,H/2-25,function(){}, null,null, "white", Math.abs(fontSize), 10)
 }

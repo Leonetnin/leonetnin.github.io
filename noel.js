@@ -150,16 +150,22 @@ function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor
     ctx.stroke();
 }
 
-function button(name="Button", x=10, y=10,execute=function(){}, width, height, color="white", size=24,padding) {
-    text("",x+4,y+size+7,0,"black",size+"px Serif", "left")
-    let nameMeasure=ctx.measureText(name)
-    padding = (padding==null)?(24):(padding)
-    width=(width==null)?(nameMeasure.width+2*padding):(width+2*padding)
-    height=(height==null)?(size+padding*2):(height+2*padding)
-    foursided(x,y,[0,0,0,height,width,height,width,0], color, "black",3)
-    text(name,x+width/2-size/1.87,y+height/2+6+size/3-7.8,0,"black",size+"px Serif", "left")
-    if (justClicked && mouseAABB(x-2,y+height+2,x+width+2,y-2)) {
-        execute()
+function button(name="Button", x=10, y=10,execute=function(){}, width, height, color="white", size=24,padding,image=false) {
+    if (image){
+        ctx.drawImage(name,x,y,width,height)
+        if (justClicked && mouseAABB(x,y+height,x+width,y)) {
+            execute()
+        }
+    } else {
+        text("",x+4,y+size+7,0,"black",size+"px Serif", "left")
+        padding = (padding==null)?(24):(padding)
+        width=(width==null)?(ctx.measureText(name).width+2*padding):(width+2*padding)
+        height=(height==null)?(size+padding*2):(height+2*padding)
+        foursided(x,y,[0,0,0,height,width,height,width,0], color, "black",3)
+        text(name,x+(width-ctx.measureText(name).width)/2,y+height/2+6+size/3-7.8,0,"black",size+"px Serif", "left")
+        if (justClicked && mouseAABB(x-2,y+height+2,x+width+2,y-2)) {
+            execute()
+        }
     }
 }
 
@@ -267,6 +273,13 @@ function keybinds(binds) {
     return bindsum
 }
 
+function nalert(message="",time=1) {
+    if (time>0){
+        time-=1
+        requestAnimationFrame(nalert)
+    }
+}
+
 function getHttp(inptUrl) {
     let xmlHttp = new XMLHttpRequest;
     xmlHttp.onreadystatechange=function()
@@ -339,8 +352,8 @@ class Sprite{
         this.y = y
     }
 
-    static draw() {
-        ctx.drawImage(this.texture,0,0)
+    draw(width=100,height=100) {
+        ctx.drawImage(this.texture,this.x,this.y,width,height)
     }
 }
 

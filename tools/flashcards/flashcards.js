@@ -21,6 +21,7 @@ let flipSide = 1
 let selectedCard=0;
 let createdCard=false
 let saved=false
+let showMenu=true
 
 update = (delta) => {
     testShape = [0,-cardHeight.left/2,0,cardHeight.left/2,cardWidth,cardHeight.right/2,cardWidth,-cardHeight.right/2]
@@ -40,27 +41,12 @@ update = (delta) => {
     if (selectedCard==c_cards.length-1){
         button(" + ",W/2+175,H/2-25,function(){c_cards.push(["",""]); selectedCard=c_cards.length-1},0,0,"white",36)
     }
-
-    button("Change", 10,H-200, function(){}, 93,40,"white",24,5)
-    rectangle(10,H-50,80,40,"white")
-    text("save",50,H-25)
-    if (!saved && mouse.button==0 && mouseAABB(10, H-10, 90,H-50)) {
-        saved=true
-        saveSet()
-        alert("Saved")
-    }
-
-    rectangle(10,H-100,142,40,"white")
-    text("Change save",80,H-75)
-    if (!saved && mouse.button==0 && mouseAABB(10, H-60, 152,H-100)) {
-        saved=true
-        changeSave(prompt("Which save?"))
-        
-    }
-
-    if (mouse.button==-1){
-        createdCard=false
-        saved=false
+    let monkejpg=new Image()
+    monkejpg.src = "/tools/flashcards/monke.jpg"
+    button(monkejpg, 10,10, function(){showMenu=!showMenu}, 93,40,"white",24,5,true)
+    if (showMenu){
+        button("Save", 90, 10, function(){saveSet();alert("Saved")}, 80,40,"white",24,5)
+        button("Change save", 200, 10, function(){changeSave(prompt("Which save?"))}, 120,40,"white",24,5)
     }
 
     if (justPressed(" ") && edit==null && flipping==false){
@@ -89,10 +75,10 @@ update = (delta) => {
     if (flipping) {
         flip(delta)
     }
-    if (mouse.button==0 && mouseAABB(0,100,W,60)) {
+    if (justClicked && mouseAABB(W/2-200,100,W/2+200,60)) {
         edit="title"
     }
-    if (mouse.button==0 && mouseAABB(W/2-150,H/2+100,W/2+150,H/2-100)) {
+    if (justClicked && mouseAABB(W/2-150,H/2+100,W/2+150,H/2-100)) {
         edit = (cardSide==1) ? ("question") : ("answer")
     }
 
