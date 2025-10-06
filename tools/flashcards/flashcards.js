@@ -232,6 +232,7 @@ function editVarByKeyboard(variable){
 function saveSet(){
     if (c_save==0){
         localStorage.setItem("save"+(localStorage.length+1).toString(), JSON.stringify({"title":c_title, "bg_color":c_bgc,"flashcards":c_cards}))
+        c_save=localStorage.length
     } else {
         localStorage.setItem("save"+c_save, JSON.stringify({"title":c_title, "bg_color":c_bgc,"flashcards":c_cards}))
     }
