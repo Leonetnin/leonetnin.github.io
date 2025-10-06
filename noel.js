@@ -32,7 +32,6 @@ function rectangle(x, y, width, height, color = "black", rotation = 0, withcam =
     ctx.fillStyle = color;
     ctx.translate(x+width/2,y+height/2)
     ctx.rotate(toRadians(rotation));
-
     if (withcam) {
         ctx.fillRect(-camera.position.x+W/2-width, -camera.position.y+H/2-height, width, height);
     }
@@ -121,10 +120,10 @@ function test(){
     ctx.stroke();
 }
 
-function foursided(x,y,[x1,y1,x2,y2,x3,y3,x4,y4],color){
+function foursided(x,y,[x1,y1,x2,y2,x3,y3,x4,y4],color,borderColor="black",borderWidth=0){
     ctx.fillStyle=color
-    ctx.lineWidth=2
-    ctx.strokeStyle="gray"
+    ctx.lineWidth=borderWidth
+    ctx.strokeStyle=borderColor
     ctx.beginPath();
     ctx.moveTo(x1+x, y1+y);
     ctx.lineTo(x2+x, y2+y);
@@ -151,18 +150,28 @@ function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor
     ctx.stroke();
 }
 
-function button(name="Button", x=0, y=0, width=ctx.measureText(name).width, height=50, color="white", size=24) {
-    rectangle(x,y,width,height, color, 0, false)
-    text(name,x+4,y+size+7,0,"black",size+"px Serif", "left")
+function button(name="Button", x=10, y=10,execute=function(){}, width, height, color="white", size=24,padding) {
+    text("",x+4,y+size+7,0,"black",size+"px Serif", "left")
+    let nameMeasure=ctx.measureText(name)
+    padding = (padding==null)?(24):(padding)
+    width=(width==null)?(nameMeasure.width+2*padding):(width+2*padding)
+    height=(height==null)?(size+padding*2):(height+2*padding)
+    foursided(x,y,[0,0,0,height,width,height,width,0], color, "black",3)
+    text(name,x+width/2-size/1.87,y+height/2+6+size/3-7.8,0,"black",size+"px Serif", "left")
+    if (justClicked && mouseAABB(x-2,y+height+2,x+width+2,y-2)) {
+        execute()
+    }
 }
 
 let update = null;
 let _delta = 0;
 let _previousTimeStamp = 0
+let justClicked=false
 function _updateHandler(){
     _delta = document.timeline.currentTime - _previousTimeStamp
     _previousTimeStamp=document.timeline.currentTime
     update?.(_delta);
+    justClicked=false
     requestAnimationFrame(_updateHandler);
 }
 _updateHandler()
@@ -189,6 +198,7 @@ function _mouse(data) {
     }
     if (data.type == "mousedown") {
         _mouseButton = data.button;
+        justClicked=true
     }
     if (data.type == "mouseup") {
         _mouseButton = -1;

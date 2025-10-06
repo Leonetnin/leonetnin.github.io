@@ -33,21 +33,15 @@ update = (delta) => {
     text(c_title,W/2,100,48,(edit=="title")?(editColor):("black"))
     text("save "+c_save,50,30)
     //rectangle(W/2-cardWidth/2,H/2-100,cardWidth,200,cardColor)
-    foursided(W/2-cardWidth/2,H/2,testShape,cardColor,true)
+    foursided(W/2-cardWidth/2,H/2,testShape,cardColor,"gray",2)
     shape(W/2+130,H/2+110,[0,0,0,30,20,15],"black",2,"rgb(50,80,50)")
     shape(W/2-150,H/2+110,[0,15,20,0,20,30],"black",2,"rgb(50,80,50)")
     text(selectedCard,W/2,H/2+137,36)
     if (selectedCard==c_cards.length-1){
-        rectangle(W/2+200,H/2-25,50,50,"white")
-        rectangle(W/2+205,H/2-5,40,10,"black")
-        rectangle(W/2+220,H/2-20,10,40,"black")
-        if (!createdCard && mouse.button==0 && mouseAABB(W/2+200,H/2+25,W/2+250,H/2-25)) {
-            createdCard=true
-            c_cards.push(["Q","A"])
-            selectedCard=c_cards.length-1
-        }
+        button(" + ",W/2+175,H/2-25,function(){c_cards.push(["",""]); selectedCard=c_cards.length-1},0,0,"white",36)
     }
 
+    button("Change", 10,H-200, function(){}, 93,40,"white",24,5)
     rectangle(10,H-50,80,40,"white")
     text("save",50,H-25)
     if (!saved && mouse.button==0 && mouseAABB(10, H-10, 90,H-50)) {
