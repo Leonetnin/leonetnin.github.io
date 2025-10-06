@@ -29,7 +29,7 @@ update = (delta) => {
     c_question = c_cards[selectedCard][0]
     c_answer = c_cards[selectedCard][1]
     //monitor values
-    monitor(["FPS: "+Math.round(1000/delta)])
+    //monitor(["FPS: "+Math.round(1000/delta)])
     text(c_title,W/2,100,48,(edit=="title")?(editColor):("black"))
     text("save "+c_save,50,30)
     //rectangle(W/2-cardWidth/2,H/2-100,cardWidth,200,cardColor)
