@@ -24,10 +24,13 @@ if (url.startsWith("https://noelastrom.se/wikis/iOSNotes/MathNotes/Commands/")){
 } else if (url.startsWith("http://127")){
     let h1_local = document.createElement("h1")
     let p_local = document.createElement("p")
+    let pascalspappa = document.createElement("img")
+    pascalspappa.src="/Random/eric-krausser.jpg"
     h1_local.innerHTML="You are on local host";
     p_local.innerHTML="So I assume you're testing and it doesn't work.";
     document.body.appendChild(h1_local)
     document.body.appendChild(p_local)
+    document.body.appendChild(pascalspappa)
 }else{
     let h1_404 = document.createElement("h1")
     let p_404 = document.createElement("p")

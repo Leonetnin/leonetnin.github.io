@@ -186,21 +186,29 @@ const mouse = {
     get x() {return _mouseX},
     get y() {return _mouseY},
     get position() {return ({x: _mouseX, y:_mouseY})},
-    get button() {return _mouseButton}
+    get button() {return _mouseButton},
+    get velocity() {return {x:_mouseVX,y:_mouseVY}}
 }
 
 function mouseAABB(Left, Bottom, Right, Top) {
+    if (Left.x!=undefined){
+        return (mouse.x>Left.x && mouse.x<Left.x+Left.width && mouse.y>Left.y && mouse.y<Left.y+Left.height)
+    }
     return (mouse.x>Left && mouse.x<Right && mouse.y>Top && mouse.y<Bottom)
 }
 
 let _mouseX = 0;
 let _mouseY = 0;
 let _mouseButton = -1;
+let _mouseVX=0
+let _mouseVY=0
 
 function _mouse(data) {
     if (data.type == "mousemove") {
         _mouseX = data.x;
         _mouseY = data.y;
+        _mouseVX=data.movementX;
+        _mouseVY=data.movementY;
     }
     if (data.type == "mousedown") {
         _mouseButton = data.button;
@@ -346,13 +354,15 @@ class Hitbox {
 }
 
 class Sprite{
-    constructor(x, y, texture){
+    constructor(x, y, texture, width=100, height=100){
+        this.width=width
+        this.height=height
         this.texture = texture
         this.x = x
         this.y = y
     }
 
-    draw(width=100,height=100) {
+    draw(width=this.width,height=this.height) {
         ctx.drawImage(this.texture,this.x,this.y,width,height)
     }
 }
@@ -380,4 +390,8 @@ async function read(path) {
         xhttp.send(null)
     })
     return(await filepromise)
+}
+
+function direction(value){
+    return value/Math.abs(value)
 }
