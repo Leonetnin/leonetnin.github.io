@@ -28,22 +28,27 @@ let camera = {
 }
 
 
-function rectangle(x, y, width, height, color = "black", rotation = 0, withcam = false) {
+function rectangle(x, y, width, height, color = "black", rotation = 0, withcam = false, roundness=0) {
     ctx.fillStyle = color;
     ctx.translate(x+width/2,y+height/2)
     ctx.rotate(toRadians(rotation));
-    if (withcam) {
-        ctx.fillRect(-camera.position.x+W/2-width, -camera.position.y+H/2-height, width, height);
+    if (roundness==0){
+        if (withcam) {
+            ctx.fillRect(-camera.position.x+W/2-width, -camera.position.y+H/2-height, width, height);
+        }
+        else {
+            ctx.fillRect(-width/2, -height/2, width, height)
+        }
+    } else {
+        ctx.roundRect(-width/2,-height/2, width, height, roundness)
+        ctx.fill()
+        ctx.stroke()
     }
-    else {
-        ctx.fillRect(-width/2, -height/2, width, height)
-    }
-    
     ctx.resetTransform()
     
 }
 
-function ellipse(x,y,radiusX,radiusY, color = "black", lineWidth, rotation = 0){
+function ellipse(x,y,radiusX,radiusY, color = "black", lineWidth, rotation = 5){
     ctx.beginPath()
     ctx.ellipse(x, y, radiusX, radiusY, rotation, 0, 2*Math.PI)
     if (lineWidth !== undefined) {
@@ -55,7 +60,6 @@ function ellipse(x,y,radiusX,radiusY, color = "black", lineWidth, rotation = 0){
         ctx.fillStyle = color;
         ctx.fill()
     }
-    
 }
 
 function circle(x, y, radius, color, lineWidth) {
@@ -66,9 +70,9 @@ function text(text, x=W/2, y=200, size = 24, color="black", font = size+"px Seri
     ctx.fillStyle = color
     ctx.font = font
     ctx.textAlign=align
-    ctx.shadowOffsetX=1
-    ctx.shadowOffsetY=1
-    ctx.shadowColor="gray"
+    // ctx.shadowOffsetX=1
+    // ctx.shadowOffsetY=1
+    // ctx.shadowColor="gray"
     let lines = (text+"").split("\n")
     for (let i=0; i<lines.length+1;i++){
         if(ctx.measureText(lines[i]).width>maxWidth){
@@ -150,22 +154,28 @@ function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor
     ctx.stroke();
 }
 
-function button(name="Button", x=10, y=10,execute=function(){}, width, height, color="white", size=24,padding,image=false) {
+function button(name="Button", x=10, y=10,execute=function(){}, width, height, color="white", borderColor="black", textColor="black", size=24,padding,image=false) {
     if (image){
         ctx.drawImage(name,x,y,width,height)
-        if (justClicked && mouseAABB(x,y+height,x+width,y)) {
-            execute()
+        if (mouseAABB(x,y+height,x+width,y)){
+            if (justClicked) {
+                execute()
+            }
         }
     } else {
         text("",x+4,y+size+7,0,"black",size+"px Serif", "left")
         padding = (padding==null)?(24):(padding)
         width=(width==null)?(ctx.measureText(name).width+2*padding):(width+2*padding)
         height=(height==null)?(size+padding*2):(height+2*padding)
-        foursided(x,y,[0,0,0,height,width,height,width,0], color, "black",3)
-        text(name,x+(width-ctx.measureText(name).width)/2,y+height/2+6+size/3-7.8,0,"black",size+"px Serif", "left")
-        if (justClicked && mouseAABB(x-2,y+height+2,x+width+2,y-2)) {
-            execute()
+        //borderColor="rgb("
+        if (mouseAABB(x,y+height,x+width,y)){
+            if (justClicked) {
+                execute()
+            }
         }
+        //foursided(x,y,[0,0,0,height,width,height,width,0], color, borderColor,3)
+        rectangle(x,y,width,height,color)
+        text(name,x+(width-ctx.measureText(name).width)/2,y+height/2+6+size/3-7.8,0,textColor,size+"px Serif", "left")
     }
 }
 
@@ -182,6 +192,10 @@ function _updateHandler(){
 }
 _updateHandler()
 
+function rgb(red, green, blue, alpha=0) {
+    return "rgb("+red+","+green+","+blue+")"
+}
+
 const mouse = {
     get x() {return _mouseX},
     get y() {return _mouseY},
@@ -195,6 +209,10 @@ function mouseAABB(Left, Bottom, Right, Top) {
         return (mouse.x>Left.x && mouse.x<Left.x+Left.width && mouse.y>Left.y && mouse.y<Left.y+Left.height)
     }
     return (mouse.x>Left && mouse.x<Right && mouse.y>Top && mouse.y<Bottom)
+}
+
+function mouseDistance(x,y){
+    return Math.sqrt((_mouseX-x)**2+(_mouseY-y)**2)
 }
 
 let _mouseX = 0;
