@@ -375,7 +375,8 @@ class Sprite{
     constructor(x, y, texture, width=100, height=100){
         this.width=width
         this.height=height
-        this.texture = texture
+        this.texture = new Image()
+        this.texture.src=texture
         this.x = x
         this.y = y
     }
