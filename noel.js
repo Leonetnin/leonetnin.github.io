@@ -308,7 +308,6 @@ function keybinds(binds) {
     }
     return bindsum
 }
-
 function nalert(message="",time=1) {
     if (time>0){
         time-=1

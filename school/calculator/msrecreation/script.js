@@ -18,4 +18,4 @@ update = () => {
 function calcClick(){
     alert(1)
 }
-//button(calcButtonTexts[i+j*4], i*100, j*100, calcClick, 50, 50,rgb(249,249,249),rgb(229, 229, 229),"black",48,24,false)
+alert(1) //button(calcButtonTexts[i+j*4], i*100, j*100, calcClick, 50, 50,rgb(249,249,249),rgb(229, 229, 229),"black",48,24,false)
