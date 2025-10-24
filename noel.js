@@ -3,23 +3,24 @@
 noel.js
 version 0.1, alpha.
 ---------------------------------
-Latest update: 2025-09-29, 12:00
+Latest update: 2025-10-21, 11:30
 ---------------------------------*/
 
-const canvas = document.createElement('canvas')
-canvas.id = "_canvas"
-canvas.width = window.innerWidth
-canvas.height = window.innerHeight
-document.body.appendChild(canvas)
-let H = window.innerHeight
-let W = window.innerWidth
-let _terminalActivated = false
+const canvas = document.createElement('canvas');
+canvas.id = "_canvas";
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+document.body.appendChild(canvas);
+let H = window.innerHeight;
+let W = window.innerWidth;
+let _terminalActivated = false;
+
+let ctx = canvas.getContext("2d");
 
 function toRadians(degrees) {
     return degrees * Math.PI/180
 }
 
-let ctx = canvas.getContext("2d");
 
 let camera = {
     position: {x:0, y:0},
@@ -30,22 +31,21 @@ let camera = {
 
 function rectangle(x, y, width, height, color = "black", rotation = 0, withcam = false, roundness=0) {
     ctx.fillStyle = color;
-    ctx.translate(x+width/2,y+height/2)
+    ctx.translate(x+width/2,y+height/2);
     ctx.rotate(toRadians(rotation));
     if (roundness==0){
         if (withcam) {
             ctx.fillRect(-camera.position.x+W/2-width, -camera.position.y+H/2-height, width, height);
         }
         else {
-            ctx.fillRect(-width/2, -height/2, width, height)
+            ctx.fillRect(-width/2, -height/2, width, height);
         }
     } else {
-        ctx.roundRect(-width/2,-height/2, width, height, roundness)
-        ctx.fill()
-        ctx.stroke()
+        ctx.roundRect(-width/2,-height/2, width, height, roundness);
+        ctx.fill();
+        ctx.stroke();
     }
-    ctx.resetTransform()
-    
+    ctx.resetTransform();
 }
 
 function ellipse(x,y,radiusX,radiusY, color = "black", lineWidth, rotation = 5){
@@ -154,30 +154,40 @@ function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor
     ctx.stroke();
 }
 
-function button(name="Button", x=10, y=10,execute=function(){}, width, height, color="white", borderColor="black", textColor="black", size=24,padding,image=false) {
-    if (image){
-        ctx.drawImage(name,x,y,width,height)
-        if (mouseAABB(x,y+height,x+width,y)){
-            if (justClicked) {
-                execute()
-            }
+//name="Button", x=10, y=10,execute=function(){}, width, height, color="white", borderColor="black", textColor="black", size=24,padding,image=false
+const buttonStandardStyle={"text":"Button","x":10,"y":10,"execute":function(){alert("Clicked!")},"width":50,"height":50,"bgColor":"white","borderWidth":5,"borderColor":"black","textColor":"black","size":24,"padding":5,"image":false,"buttonShape":function(){rectangle(this.x,this.y,this.width,this.height,this.bgColor)}}
+function button(userData=buttonStandardStyle) {
+    let data=buttonStandardStyle
+    if (userData!=buttonStandardStyle){
+        for (let i=0; i<Object.keys(userData).length; i++){
+            data[Object.keys(userData)[i]]=userData[Object.keys(userData)[i]]
         }
-    } else {
-        text("",x+4,y+size+7,0,"black",size+"px Serif", "left")
-        padding = (padding==null)?(24):(padding)
-        width=(width==null)?(ctx.measureText(name).width+2*padding):(width+2*padding)
-        height=(height==null)?(size+padding*2):(height+2*padding)
-        //borderColor="rgb("
-        if (mouseAABB(x,y+height,x+width,y)){
-            if (justClicked) {
-                execute()
-            }
-        }
-        //foursided(x,y,[0,0,0,height,width,height,width,0], color, borderColor,3)
-        rectangle(x,y,width,height,color)
-        text(name,x+(width-ctx.measureText(name).width)/2,y+height/2+6+size/3-7.8,0,textColor,size+"px Serif", "left")
     }
+    data.buttonShape()
+    text(data.text,50,50,24,data.textColor,data.font,data.textAlign)
 }
+// if (image){
+//     ctx.drawImage(name,x,y,width,height)
+//     if (mouseAABB(x,y+height,x+width,y)){
+//         if (justClicked) {
+//             execute()
+//         }
+//     }
+// } else {
+//     text("",x+4,y+size+7,0,"black",size+"px Serif", "left")
+//     padding = (padding==null)?(24):(padding)
+//     width=(width==null)?(ctx.measureText(name).width+2*padding):(width+2*padding)
+//     height=(height==null)?(size+padding*2):(height+2*padding)
+//     borderColor=(borderColor==null)?("black"):(borderColor)
+//     if (mouseAABB(x,y+height,x+width,y)){
+//         if (justClicked) {
+//             execute()
+//         }
+//     }
+//     foursided(x,y,[0,0,0,height,width,height,width,0], color, borderColor,3)
+//     //rectangle(x,y,width,height,color)
+//     text(name,x+(width-ctx.measureText(name).width)/2,y+height/2+6+size/3-7.8,0,textColor,size+"px Serif", "left")
+// }
 
 let update = null;
 let _delta = 0;

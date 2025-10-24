@@ -1,0 +1,47 @@
+.dropdownContent {
+    display: none;
+    button{
+        display: block;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+        width: 75px;
+    }
+    z-index: 4;
+    position: absolute;
+    overflow:auto;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(233, 233, 233);
+}
+
+.inputarea {
+    
+    textarea {
+        margin: 0px;
+        width: calc(100vw - 5px);
+        height:calc(100vh - 31px);
+        right: 100px;
+        resize: none;
+        outline: none;
+        border: none;
+    }
+}
+
+.tool{
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.toolbar {
+    float:right;
+    overflow: hidden;
+    position: relative;
+}
+
+.show {
+    display:inline-block;
+}
