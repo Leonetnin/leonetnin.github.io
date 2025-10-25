@@ -1,4 +1,5 @@
 {
     "display": "standalone",
-    "shorttext": "Noel App"
+    "shorttext": "Noel App",
+    "background-color": "red"
 }
