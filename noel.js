@@ -21,6 +21,10 @@ function toRadians(degrees) {
     return degrees * Math.PI/180
 }
 
+function toDegrees(radians) {
+    return radians / (Math.PI/180)
+}
+
 
 let camera = {
     position: {x:0, y:0},
