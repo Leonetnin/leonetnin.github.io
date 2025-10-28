@@ -103,6 +103,9 @@ function text(text, x=W/2, y=200, size = 24, color="black", font = size+"px Seri
     }
     ctx.shadowOffsetX=0
     ctx.shadowOffsetY=0
+    let textMetrics = ctx.measureText(lines[0])
+    //rectangle(x,y-textHeight+30,textMetrics.width,textHeight,"rgba(0,255,0,0.5)")
+    return {"height":{"ascent":textMetrics.actualBoundingBoxAscent,"descent":textMetrics.actualBoundingBoxDescent},"width":textMetrics.actualBoundingBoxRight}
 }
 
 function repeatStr(stringInput, times){
