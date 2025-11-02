@@ -32,6 +32,7 @@ let camera = {
     zoom: 1
 }
 
+let fefe=0
 
 function rectangle(x, y, width, height, color = "black", rotation = 0, withcam = false, roundness=0) {
     ctx.fillStyle = color;
@@ -45,9 +46,10 @@ function rectangle(x, y, width, height, color = "black", rotation = 0, withcam =
             ctx.fillRect(-width/2, -height/2, width, height);
         }
     } else {
-        ctx.roundRect(-width/2,-height/2, width, height, roundness);
+        ctx.beginPath();
+        ctx.roundRect(-width/2, -height/2, width, height,roundness);
+        ctx.closePath();
         ctx.fill();
-        ctx.stroke();
     }
     ctx.resetTransform();
 }
@@ -70,6 +72,14 @@ function circle(x, y, radius, color, lineWidth) {
     ellipse(x, y, radius, radius, color, lineWidth)
 }
 
+function line(x1,y1,x2,x3,color="black",width=2){
+    ctx.moveTo(x1,y1)
+    ctx.lineTo(x2,x3)
+    ctx.lineWidth=width;
+    ctx.strokeStyle=color
+    ctx.stroke();
+}
+
 function text(text, x=W/2, y=200, size = 24, color="black", font = size+"px Serif", align="center",width=10000, maxWidth=100000, fillOut=false) {
     ctx.fillStyle = color
     ctx.font = font
@@ -79,7 +89,7 @@ function text(text, x=W/2, y=200, size = 24, color="black", font = size+"px Seri
     // ctx.shadowColor="gray"
     let lines = (text+"").split("\n")
     for (let i=0; i<lines.length+1;i++){
-        if(ctx.measureText(lines[i]).width>maxWidth){
+        if(ctx.measureText(lines[i]).width>maxWidth && lines>1){
             let cutoffWidth = 0
             let choppedUpText = lines[i].split("")
             let j=choppedUpText.length-1;
@@ -147,22 +157,34 @@ function foursided(x,y,[x1,y1,x2,y2,x3,y3,x4,y4],color,borderColor="black",borde
 
 let _triangleShape = [0,50,50,50,25,0]
 
-function shape(x,y,shape=_triangleShape,color="black", lineWidth=0.01, lineColor="white",rotation=0,withcam=false){
-    ctx.fillStyle=color;
+function shape(x,y,shape=_triangleShape,color="black", lineWidth=0, lineColor="white",rotation=0,withcam=false){
+    let pointXY=[[],[]]
+    for (let i=0; i<shape.length; i+=2){
+        pointXY[0].push(shape[i])
+        pointXY[1].push(shape[i+1])
+    }
     ctx.lineWidth=lineWidth;
+    let width=Math.max(...pointXY[0])-Math.min(...pointXY[0])
+    let height=Math.max(...pointXY[1])-Math.min(...pointXY[1])
+    ctx.translate(x+width/2,y+height/2);
+    ctx.rotate(toRadians(rotation));
     ctx.strokeStyle=lineColor;
+    ctx.fillStyle=color;
     ctx.beginPath();
-    ctx.moveTo(x+shape[0],y+shape[1])
+    ctx.moveTo(shape[0]-width/2,shape[1]-height/2)
     for (let i=1; i<shape.length; i++){
-        ctx.lineTo(x+shape[i*2],y+shape[i*2+1])
+        ctx.lineTo(shape[i*2]-width/2,shape[i*2+1]-height/2)
     }
     ctx.closePath();
     ctx.fill();
     ctx.stroke();
+    //circle at center
+    //circle(0,0,2)
+    ctx.resetTransform()
 }
 
 //name="Button", x=10, y=10,execute=function(){}, width, height, color="white", borderColor="black", textColor="black", size=24,padding,image=false
-const buttonStandardStyle={"text":"Button","x":10,"y":10,"execute":function(){alert("Clicked!")},"width":50,"height":50,"bgColor":"white","borderWidth":5,"borderColor":"black","textColor":"black","size":24,"padding":5,"image":false,"buttonShape":function(){rectangle(this.x,this.y,this.width,this.height,this.bgColor)}}
+const buttonStandardStyle={"text":"Button", "textAlign":"center", "fontSize":24,"x":10,"y":10,"font":"24px Arial","execute":function(){alert("Clicked!")},"width":50,"height":50,"bgColor":"white","focusColor":"white","clickColor":"gray","borderWidth":5,"borderColor":"black","textColor":"black","size":24,"padding":5,"image":false}
 function button(userData=buttonStandardStyle) {
     let data=buttonStandardStyle
     if (userData!=buttonStandardStyle){
@@ -170,8 +192,18 @@ function button(userData=buttonStandardStyle) {
             data[Object.keys(userData)[i]]=userData[Object.keys(userData)[i]]
         }
     }
-    data.buttonShape()
-    text(data.text,50,50,24,data.textColor,data.font,data.textAlign)
+    if (mouseAABB(data.x,data.y+data.height,data.x+data.width,data.y)){
+        if (mouse.button==0) {
+            data.bgColor=data.clickColor
+            if (justClicked){
+                data.execute()
+            }
+        } else {
+            data.bgColor=data.focusColor
+        }
+    }
+    rectangle(data.x,data.y,data.width,data.height,data.bgColor,0,false,data.roundness)
+    text(data.text,data.x+data.width/2,data.y+data.height/2+data.fontSize/2-4,data.fontSize,data.textColor,data.font,data.textAlign)
 }
 // if (image){
 //     ctx.drawImage(name,x,y,width,height)
@@ -388,17 +420,41 @@ class Hitbox {
 }
 
 class Sprite{
-    constructor(x, y, texture, width=100, height=100){
-        this.width=width
-        this.height=height
+    constructor(x, y, texture,alpha=1){
         this.texture = new Image()
         this.texture.src=texture
         this.x = x
         this.y = y
+        this.alpha=alpha
+    }
+    getDimensions(){
+        return {"width":this.texture.width,"height":this.texture.height}
+    }
+    draw(width=this.texture.width,height=this.texture.height) {
+        ctx.globalAlpha=this.alpha
+        ctx.drawImage(this.texture,this.x,this.y,width,height)
+        ctx.globalAlpha=1
+    }
+}
+
+class Spritesheet{
+    constructor(texture, columns, rows){
+        this.texture = new Image()
+        this.texture.src=texture
+        this.columns=columns
+        this.rows=rows
+    }
+    draw(column,row,x,y,scale,direction){
+        let spriteWidth=this.texture.width/this.columns
+        let spriteHeight=this.texture.height/this.rows
+        ctx.translate(W*(direction-1)*-0.5,0)
+        ctx.scale(direction,1)
+        ctx.drawImage(this.texture,spriteWidth*(column-1),spriteHeight*(row-1),spriteWidth,spriteHeight,x*direction-((W-scale)/2)*(direction-1),y,scale,scale)
+        ctx.resetTransform()
     }
 
-    draw(width=this.width,height=this.height) {
-        ctx.drawImage(this.texture,this.x,this.y,width,height)
+    getDimensions(){
+        return {"width":this.texture.width/this.columns,"height":this.texture.height/this.rows}
     }
 }
 
@@ -429,4 +485,8 @@ async function read(path) {
 
 function direction(value){
     return value/Math.abs(value)
+}
+
+function clamp(variable, valueMin, valueMax) {
+    return (variable>valueMax)?(valueMax):((variable<=valueMin)?(valueMin):(variable))
 }

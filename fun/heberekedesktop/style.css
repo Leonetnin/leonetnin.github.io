@@ -8,6 +8,10 @@ html {
     background-color: black;
 }
 
-canvas {
+img{
+    image-rendering: pixelated;
+}
+
+canvas{
     image-rendering: pixelated;
 }
