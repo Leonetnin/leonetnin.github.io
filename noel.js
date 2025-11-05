@@ -6,13 +6,13 @@ version 0.1, alpha.
 Latest update: 2025-10-21, 11:30
 ---------------------------------*/
 
-const canvas = document.createElement('canvas');
-canvas.id = "_canvas";
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-document.body.appendChild(canvas);
 let H = window.innerHeight;
 let W = window.innerWidth;
+const canvas = document.createElement('canvas');
+canvas.id = "_canvas";
+canvas.width = W;
+canvas.height = H;
+document.body.appendChild(canvas);
 let _terminalActivated = false;
 
 let ctx = canvas.getContext("2d");
@@ -31,8 +31,6 @@ let camera = {
     rotation: 0,
     zoom: 1
 }
-
-let fefe=0
 
 function rectangle(x, y, width, height, color = "black", rotation = 0, withcam = false, roundness=0) {
     ctx.fillStyle = color;
