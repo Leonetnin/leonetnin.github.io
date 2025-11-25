@@ -1,0 +1,11 @@
+html, body{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+}
+canvas{
+    position: relative;
+    z-index: 1;
+}

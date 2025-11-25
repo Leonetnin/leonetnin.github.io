@@ -1,43 +1,44 @@
-const fontFile = new FontFace(
-  "Segoe UI Variable",'url("https://fonts.gstatic.com/s/inconsolata/v31/QlddNThLqRwH-OJ1UHjlKENVzlm-WkL3GZQmAwPyya15.woff2") format("woff2")',
-  { stretch: "50% 200%" },
-);
-document.fonts.add(fontFile);
+//UPPGIFT 1 - A NIVÅ
 
-document.fonts.load("30px Segoe UI Variable").then(
-  () => {
-    ctx.font = "30px 'Segoe UI Variable'";
-    // Default (normal)
-    ctx.fillText(`Hello world (default: ${ctx.fontStretch})`, 5, 20);
+let kast = []
+let sekvenser = [0, 0, [], []]
+let antal = [0, 0]
+for (let i = 0; i < 50; i++) {
+    kast.push(Math.round(Math.random()))
+    console.log(kast[i])
+    sekvenser[kast[i]] += 1
+    if (kast.length > 1 && kast[i] != kast[i - 1]) {
+        sekvenser[kast[i - 1] + 2].push(sekvenser[kast[i - 1]])
+        sekvenser[kast[i - 1]] = 0
+    }
+    antal[kast[i]] += 1
+}
+console.log("Antal nollor: " + antal[0])
+console.log("Antal nollor: " + antal[1])
+console.log("Längsta sekvens med 0: " + Math.max(...sekvenser[2]))
+console.log("Längsta sekvens med 1: " + Math.max(...sekvenser[3]))
 
-    ctx.fontStretch = "ultra-condensed";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 50);
+//-------------------------------------------------------------------
+//UPPGIFT 2 - A NIVÅ
 
-    ctx.fontStretch = "extra-condensed";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 80);
+let a = input()
+let b = input()
+let likhet = testaLikhet(a, b)
+console.log(likhet)
 
-    ctx.fontStretch = "condensed";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 110);
+function testaLikhet(a, b) {
+    let likhet = 0
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] == b[i]) {
+            likhet += 1
+        } else {
+            break
+        }
+    }
+    return Math.round(likhet / Math.max(a.length, b.length) * 100)
+}
 
-    ctx.fontStretch = "semi-condensed";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 140);
+//--------------------------------------------------------------------
+//UPPGIFT 3 - A NIVÅ
 
-    ctx.fontStretch = "extra-condensed";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 170);
 
-    ctx.fontStretch = "semi-expanded";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 200);
-
-    ctx.fontStretch = "expanded";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 230);
-
-    ctx.fontStretch = "extra-expanded";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 260);
-
-    ctx.fontStretch = "ultra-expanded";
-    ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 290);
-  },
-  (err) => {
-    console.error(err);
-  },
-);

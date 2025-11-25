@@ -43,7 +43,7 @@ update = () => {
     text(input,buttonWidth*4+buttonPadding*3-2,164,"100","white","normal 600 67px/30px Segoe UI Variable","right")
     text(latestInput,buttonWidth*4+buttonPadding*3-6,90,"100","rgb(115, 115, 115)","normal 600 15px/30px Segoe UI Variable","right")
     // refer.alpha=0.2
-    // refer.draw(W,H+73)
+    //refer.draw(W,H+73)
 }
 
 
@@ -83,9 +83,9 @@ function handleInput(button){
         case "¹/x":
             if (input=="0"){
                 if (latestInput=="0÷"){
-                    input="Result is undefined"
+                    input="Result is undefined."
                 } else{
-                    input="Cannot divide by zero"
+                    input="Cannot divide by zero."
                 }
                 break;
             }
