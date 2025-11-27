@@ -1,0 +1,28 @@
+html, body{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+}
+canvas{
+    position: relative;
+    z-index: 1;
+}
+
+input {
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+button {
+    z-index: 2;
+    border-style: none;
+    position: fixed;
+    bottom: 1px;
+    right: 0;
+}
