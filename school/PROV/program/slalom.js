@@ -65,7 +65,7 @@ update = () => {
             player.x+=player.vx
             player.y+=player.vy
             for (let i=0;i<map.gates.length;i++){
-                if (Math.sqrt((player.x-map.gates[i].x)**2+(player.y-map.gates[i].y)**2)<15){
+                if (Math.sqrt((player.x-map.gates[i].x)**2+(player.y-map.gates[i].y)**2)<10){
                     state="crashed"
                 }
                 if (player.y>map.gates[i].y && !map.gates[i].passed){
