@@ -1,4 +1,4 @@
-let students=JSON.parse(await read("studentdata.json"))["students"]
+let students=JSON.parse(await read("studentdata.json"))["classes"]["TE24a"]
 let lowest = [1000,""]
 let today = new Date
 let todaydays=(today.getMonth()+1)*31+today.getDate()
