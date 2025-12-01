@@ -1,3 +1,4 @@
+//RANDOM KALENDER
 let buttonWidth = W/12
 let buttonHeight = buttonWidth
 let opened=[]
@@ -10,7 +11,7 @@ while (x.length < 24){
     for (let i=0; i<24; i++){
         let collision=true
         let loops=0
-        while (collision==true || loops>100){
+        while (collision || loops>100){
             collision=false
             x[i]=Math.random()*(W-buttonWidth)
             y[i]=Math.random()*(H-buttonHeight)

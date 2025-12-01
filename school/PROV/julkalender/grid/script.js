@@ -1,3 +1,4 @@
+//GRID KALENDER
 let buttonWidth = (W-100)/6
 let buttonHeight = (H-100)/4
 let opened=[]
