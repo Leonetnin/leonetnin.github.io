@@ -42,3 +42,36 @@ a{
 a:hover, a:focus{
     text-decoration:underline;
 }
+
+.editor {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    button{
+        position: absolute;
+        bottom: 0px;
+    }
+    textarea{
+        background-color: rgb(44, 55, 81);
+        color: white;
+        resize:none;
+        height:calc(100vh - 110px);
+        width: 100%;
+        border-style: none;
+    }
+    input {
+        background-color: rgb(44, 55, 81);
+        color: white;
+    }
+    li{
+        button {
+            border: 0px;
+            color: white;
+            background-color: rgb(29, 37, 55);
+        }
+    }
+}
