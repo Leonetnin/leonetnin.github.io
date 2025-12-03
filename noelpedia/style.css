@@ -1,0 +1,77 @@
+html {
+    background-color: rgb(22, 21, 26);
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -4px;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    float: right;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: rgb(35, 35, 37);
+    border-width: 1px;
+    width: fit-content;
+    padding: 10px;
+    right: 0;
+}
+
+a{
+    color: rgb(76, 76, 192);
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration:underline;
+}
+
+.editor {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    button{
+        position: absolute;
+        bottom: 0px;
+    }
+    textarea{
+        background-color: rgb(44, 55, 81);
+        color: white;
+        resize:none;
+        height:calc(100vh - 110px);
+        width: 100%;
+        border-style: none;
+    }
+    input {
+        background-color: rgb(44, 55, 81);
+        color: white;
+    }
+    li{
+        button {
+            border: 0px;
+            color: white;
+            background-color: rgb(29, 37, 55);
+        }
+    }
+}

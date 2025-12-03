@@ -1,0 +1,19 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+        width: 520px;
+        text-align: center;
+    }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(159, 129, 78);
+    color: white;
+    img{
+        border-style: solid;
+        border-width: 10px;
+        width: 500px;
+    }
+    zoom: 80%;
+}

@@ -95,7 +95,7 @@ update = (delta) => {
             break;
         case "question":
             if (mouse.button==0 && !mouseAABB(W/2-150,H/2+100,W/2+150,H/2-100)) {
-                edit=null
+                edit=null;
                 if (showingPointer){
                     c_question = c_question.substring(0,c_question.length-1)
                     showingPointer=false
@@ -115,8 +115,7 @@ update = (delta) => {
             }
             editVarByKeyboard("c_answer")
             c_cards[selectedCard][1]=c_answer
-            break;
-        
+            break;  
         default:
             break;
     }

@@ -32,9 +32,7 @@ let camera = {
     zoom: 1
 }
 
-let fefe=0
-
-function rectangle(x, y, width, height, color = "black", rotation = 0, withcam = false, roundness=0) {
+function rectangle(x, y, width, height, color = "black", lineWidth=undefined, lineColor="white", rotation = 0, withcam = false, roundness=0) {
     ctx.fillStyle = color;
     ctx.translate(x+width/2,y+height/2);
     ctx.rotate(toRadians(rotation));
@@ -51,6 +49,11 @@ function rectangle(x, y, width, height, color = "black", rotation = 0, withcam =
         ctx.closePath();
         ctx.fill();
     }
+    if (lineWidth!==undefined){
+        ctx.lineWidth=lineWidth
+        ctx.strokeStyle=lineColor;
+        ctx.strokeRect(-width/2,-height/2,width,height)
+    }
     ctx.resetTransform();
 }
 
@@ -66,6 +69,7 @@ function ellipse(x,y,radiusX,radiusY, color = "black", lineWidth, rotation = 5){
         ctx.fillStyle = color;
         ctx.fill()
     }
+    ctx.closePath()
 }
 
 function circle(x, y, radius, color, lineWidth) {
@@ -73,11 +77,13 @@ function circle(x, y, radius, color, lineWidth) {
 }
 
 function line(x1,y1,x2,x3,color="black",width=2){
+    ctx.beginPath()
     ctx.moveTo(x1,y1)
     ctx.lineTo(x2,x3)
     ctx.lineWidth=width;
     ctx.strokeStyle=color
     ctx.stroke();
+    ctx.closePath()
 }
 
 function text(text, x=W/2, y=200, size = 24, color="black", font = size+"px Serif", align="center",width=10000, maxWidth=100000, fillOut=false) {

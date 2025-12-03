@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noelpedia editor</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="editor.js" defer></script>
+</head>
+<body class="editor">
+    <label>Title: </label>
+    <input>
+    <br>
+    <div class="body">
+        <li>
+            <button onclick="format('bold')">Bold</button>
+            <button onclick="format('italic')">Italic</button>
+            <button onclick="format('link')">Link</button>
+        </li>
+        <label>Body: </label>
+        <textarea id="body"></textarea>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
