@@ -1,0 +1,29 @@
+html {
+    position: static;
+}
+
+body {
+    background-color: rgb(34, 56, 34);
+}
+
+#settings {
+    background-image: url("images/LivBoj.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    image-rendering: crisp-edges;
+    background-color: transparent;
+    width: 96px;
+    height: 96px;
+    background-size:cover;
+    border-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.3s;
+    display: inline-flex;
+}
+
+button.active {
+    transform: rotate(360deg);
+    animation-duration: 0.3s;
+}

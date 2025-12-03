@@ -1,0 +1,12 @@
+{
+    "students":{
+        "noel":{
+            "name":"Noel Åström",
+            "personnummer":"200809261234"
+        },
+        "nathan":{
+            "name":"Nathan Zellman",
+            "personnummer":"200801011234"
+        }
+    }
+}

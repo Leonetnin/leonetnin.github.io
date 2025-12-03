@@ -1,0 +1,18 @@
+{
+    "Round": {
+        "name":"round()",
+        "description":"Round(input) takes your input and rounds it to the nearest integer."
+    },
+    "Floor": {
+        "name":"floor()",
+        "description":"floor(input) floors it, like bro what did you anticipate."
+    },
+    "Placeholder": {
+        "name":"",
+        "description":""
+    },
+    "End": {
+        "name":"end",
+        "description":"its not even a commando broorihfifhoifh!"
+    }
+}

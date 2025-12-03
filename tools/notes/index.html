@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button onclick="dropdown('file')" class="fileButton tool">File</button>
+        <div id="fileDropdown" class="dropdownContent">
+            <button onclick="document.getElementById('input').value=''">New</button>
+            <label for="open" >Open...</label>
+            <input type="file" id="open" name="oppna" accept=".txt">
+            <button>Save</button>
+            <button>Save as</button>
+            <button>Close</button>
+        </div>
+        <button onclick="dropdown('edit')" class="editButton tool">Edit</button>
+        <div id="editDropdown" class="dropdownContent">
+            <button>Undo</button>
+            <button>Cut</button>
+            <button>Copy</button>
+            <button>Paste</button>
+            <button>Delete</button>
+        </div>
+        <div class="inputarea">
+            <textarea id="input"></textarea>
+        </div>
+    </div>
+</body>
+</html>
