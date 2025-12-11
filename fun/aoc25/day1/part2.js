@@ -4,20 +4,15 @@ let zeros = 0;
 let last=false
 input=input.split("\n")
 for (let i=0; i<input.length; i++){
-    code+=+input[i].slice(1)*((input[i][0]=="R")*2-1)
-    if (code>99){
-        zeros+=Math.floor(code/100)+1
-        code=Math.abs(code)%100
-    }
-    if (code<0 && last==false){
-        zeros+=Math.floor(code/100)+1
-        code=99-Math.abs(code)%100
-    }
-    if (code==0){
+    let adder=input[i].slice(1)*((input[i][0]=="R")*2-1)
+    if (code+adder>99){
+        zeros+=Math.floor((code+adder)/100)
+    } else if (code+adder<0){
+        zeros+=Math.floor(-(code+adder)/100)+1-(code==0)
+    } else if (code+adder==0){
         zeros+=1
-        last=true
-    } else{
-        last = false
     }
+    code=(code+adder+100000)%100
+    console.log(code+","+input[i]+","+zeros)
 }
 alert(zeros+","+code)
