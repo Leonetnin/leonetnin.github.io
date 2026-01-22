@@ -1,28 +1,45 @@
-html, body{
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
-    overflow:hidden;
-}
-canvas{
-    position: relative;
-    z-index: 1;
+@keyframes move-it {
+    0% {
+        background-position: initial;
+    }
+    100% {
+        background-position: 200px 0px;
+    }
 }
 
-input {
-    z-index: 2;
-    position: fixed;
-    bottom: 0px;
-    right: 0;
-    left: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
-    outline: none;
+body {
+    background: repeating-linear-gradient(
+        -45deg,
+        white 0px 15px,
+        rgb(233, 233, 233) 15px 35.4px
+    );
+    animation: move-it 2s linear infinite;
+    background-size: 100px 100px;
 }
-button {
-    z-index: 2;
-    border-style: none;
-    position: fixed;
-    bottom: 1px;
-    right: 0;
+
+.logo {
+    display: flex;
+    justify-content: center;
+    img {
+        position: absolute;
+        top: 20vh;
+        width: 50vw;
+    }
 }
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+    a {
+        font-family: comic sans ms;
+        padding: 10px;
+        margin: 10px;
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border-style: solid;
+        border-radius: 10px;
+    }
+}
+
