@@ -1,0 +1,12 @@
+body {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Consolas;
+    ul {
+        list-style: "> ";
+        a {
+            color: white;
+        }
+    }
+}
