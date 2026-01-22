@@ -1,0 +1,10 @@
+html {
+    background-color: rgb(106, 130, 171);
+}
+
+body::after {
+    font-family: Impact;
+    font-size: 110px;
+    content: 'NOELS CSS SIDA! \a \a hej';
+    white-space: pre;
+}

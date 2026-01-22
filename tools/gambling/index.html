@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasmus Gambling</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <label>Amount of flips: </label>
+    <input id="amount" placeholder="Enter an amount here...">
+    <button id="gamble" onclick="gamble()">Gamble</button>
+    <br>
+    <div id="coins">
+    </div>
+    <br>
+    <label>Won: </label>
+    <p id="won">0</p>
+    <br>
+    <label>Lost: </label>
+    <p id="lost">0</p>
+    <button class="settings" onclick="settings()">Advanced settings</button>
+    <div id="menu" class="settingsmenu">
+        <p>Most of these don't work, these are just experimental features.</p>
+        <button>Crazy mode</button>
+    </div>
+</body>
+</html>

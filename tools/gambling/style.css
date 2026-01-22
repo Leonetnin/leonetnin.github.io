@@ -1,0 +1,45 @@
+html {
+    p {
+        display: inline;
+    }
+}
+
+.settings {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+#coins {
+    img {
+        width: 50px;
+    }
+}
+
+.settingsmenu {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(235, 235, 235);
+    visibility: hidden;
+    outline-style: solid;
+    p {
+        font-weight: 200;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+    button {
+        border-radius: 0px;
+        border-style: none;
+        background-color: white;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    button:active{
+        background-color: rgb(247, 247, 247);
+    }
+}
