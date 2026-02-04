@@ -1,0 +1,3246 @@
+<tr class="download">
+<th class="download">År/Termin</th>
+<th class="download">Provpass/Delprov/Facit</th>
+<th class="download">Fil</th>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Höst Facit</td>
+<td class="download">2025 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025ht-provpass1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Höst Provpass 1 Kvantitativ</td>
+<td class="download">2025 Höst</td>
+<td class="download">Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025ht-provpass3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Höst Provpass 3 Verbal</td>
+<td class="download">2025 Höst</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025ht-provpass4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2025 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025ht-provpass5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Höst Provpass 5 Verbal</td>
+<td class="download">2025 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Vår Facit</td>
+<td class="download">2025 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025vt-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Vår Provpass 2 Verbal</td>
+<td class="download">2025 Vår</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025vt-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Vår Provpass 3 Kvantitativ</td>
+<td class="download">2025 Vår</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025vt-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Vår Provpass 4 Verbal</td>
+<td class="download">2025 Vår</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2025vt-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2025 Vår Provpass 5 Kvantitativ</td>
+<td class="download">2025 Vår</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Höst Facit</td>
+<td class="download">2024 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024ht-provpass-1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Höst Provpass 1 Kvantitativ</td>
+<td class="download">2024 Höst</td>
+<td class="download">Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024ht-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Höst Provpass 3 Verbal</td>
+<td class="download">2024 Höst</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2024 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Höst Provpass 5 Verbal</td>
+<td class="download">2024 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Vår Facit</td>
+<td class="download">2024 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024vt-provpass-1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Vår Provpass 1 Verbal</td>
+<td class="download">2024 Vår</td>
+<td class="download">Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024vt-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Vår Provpass 2 Kvantitativ</td>
+<td class="download">2024 Vår</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024vt-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Vår Provpass 4 Verbal</td>
+<td class="download">2024 Vår</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2024vt-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2024 Vår Provpass 5 Kvantitativ</td>
+<td class="download">2024 Vår</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Höst Facit</td>
+<td class="download">2023 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023ht-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Höst Provpass 2 Kvantitativ</td>
+<td class="download">2023 Höst</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023ht-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Höst Provpass 3 Verbal</td>
+<td class="download">2023 Höst</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2023 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Höst Provpass 5 Verbal</td>
+<td class="download">2023 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Vår Facit</td>
+<td class="download">2023 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023vt-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Vår Provpass 2 Kvantitativ</td>
+<td class="download">2023 Vår</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023vt-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Vår Provpass 3 Verbal</td>
+<td class="download">2023 Vår</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023vt-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Vår Provpass 4 Kvantitativ</td>
+<td class="download">2023 Vår</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2023vt-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2023 Vår Provpass 5 Verbal</td>
+<td class="download">2023 Vår</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Höst Facit</td>
+<td class="download">2022 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022ht-provpass-1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Höst Provpass 1 Kvantitativ</td>
+<td class="download">2022 Höst</td>
+<td class="download">Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022ht-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Höst Provpass 2 Verbal</td>
+<td class="download">2022 Höst</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2022 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Höst Provpass 5 Verbal</td>
+<td class="download">2022 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt2-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Maj (Prov 2): Facit</td>
+<td class="download">2022 Vår</td>
+<td class="download">Maj (Prov 2): Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt2-provpass1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Maj (Prov 2): Provpass 1 Kvantitativ</td>
+<td class="download">2022 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt2-provpass3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Maj (Prov 2): Provpass 3 Verbal</td>
+<td class="download">2022 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt2-provpass4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Maj (Prov 2): Provpass 4 Kvantitativ</td>
+<td class="download">2022 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt2-provpass5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Maj (Prov 2): Provpass 5 Verbal</td>
+<td class="download">2022 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt1-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Mars (Prov 1): Facit</td>
+<td class="download">2022 Vår</td>
+<td class="download">Mars (Prov 1): Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt1-provpass2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Mars (Prov 1): Provpass 2 Verbal</td>
+<td class="download">2022 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt1-provpass3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Mars (Prov 1): Provpass 3 Kvantitativ</td>
+<td class="download">2022 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt1-provpass4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Mars (Prov 1): Provpass 4 Verbal</td>
+<td class="download">2022 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2022vt1-provpass5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2022 Vår Mars (Prov 1): Provpass 5 Kvantitativ</td>
+<td class="download">2022 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Höst Mars (Prov 1): Facit</td>
+<td class="download">2021 Höst</td>
+<td class="download">Mars (Prov 1): Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021-provpass1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Höst Provpass 1 Kvantitativ</td>
+<td class="download">2021 Höst</td>
+<td class="download">Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021-provpass2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Höst Provpass 2 Verbal</td>
+<td class="download">2021 Höst</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021-provpass4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2021 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021-provpass5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Höst Provpass 5 Verbal</td>
+<td class="download">2021 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt2-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Maj (Prov 2): Facit</td>
+<td class="download">2021 Vår</td>
+<td class="download">Maj (Prov 2): Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt2-provpass1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Maj (Prov 2): Provpass 1 Verbal</td>
+<td class="download">2021 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt2-provpass2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Maj (Prov 2): Provpass 2 Kvantitativ</td>
+<td class="download">2021 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt2-provpass4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Maj (Prov 2): Provpass 4 Verbal</td>
+<td class="download">2021 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt2-provpass5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Maj (Prov 2): Provpass 5 Kvantitativ</td>
+<td class="download">2021 Vår</td>
+<td class="download">Maj (Prov 2): Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt1-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Mars (Prov 1): Facit</td>
+<td class="download">2021 Vår</td>
+<td class="download">Mars (Prov 1): Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt1-provpass1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Mars (Prov 1): Provpass 1 Verbal</td>
+<td class="download">2021 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt1-provpass3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Mars (Prov 1): Provpass 3 Kvantitativ</td>
+<td class="download">2021 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt1-provpass4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Mars (Prov 1): Provpass 4 Verbal</td>
+<td class="download">2021 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2021vt1-provpass5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2021 Vår Mars (Prov 1): Provpass 5 Kvantitativ</td>
+<td class="download">2021 Vår</td>
+<td class="download">Mars (Prov 1): Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2020ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2020 Höst Facit</td>
+<td class="download">2020 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2020ht-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2020 Höst Provpass 2 Verbal</td>
+<td class="download">2020 Höst</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2020ht-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2020 Höst Provpass 3 Kvantitativ</td>
+<td class="download">2020 Höst</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2020ht-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2020 Höst Provpass 4 Verbal</td>
+<td class="download">2020 Höst</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2020ht-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2020 Höst Provpass 5 Kvantitativ</td>
+<td class="download">2020 Höst</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-facit ver1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Facit ver1</td>
+<td class="download">2019 Höst</td>
+<td class="download">Facit ver1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-facit ver2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Facit ver2</td>
+<td class="download">2019 Höst</td>
+<td class="download">Facit ver2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-provpass-1-kvantitativ-version-1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Provpass 1 Kvantitativ ver 1</td>
+<td class="download">2019 Höst</td>
+<td class="download">Provpass 1 Kvantitativ ver 1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-provpass-1-kvantitativ-version-2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Provpass 1 Kvantitativ ver 2</td>
+<td class="download">2019 Höst</td>
+<td class="download">Provpass 1 Kvantitativ ver 2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Provpass 3 Verbal</td>
+<td class="download">2019 Höst</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2019 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Höst Provpass 5 Verbal</td>
+<td class="download">2019 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Vår Facit</td>
+<td class="download">2019 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019vt-provpass-1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Vår Provpass 1 Verbal</td>
+<td class="download">2019 Vår</td>
+<td class="download">Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019vt-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Vår Provpass 2 Kvantitativ</td>
+<td class="download">2019 Vår</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019vt-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Vår Provpass 4 Verbal</td>
+<td class="download">2019 Vår</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2019vt-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2019 Vår Provpass 5 Kvantitativ</td>
+<td class="download">2019 Vår</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Höst Facit</td>
+<td class="download">2018 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018ht-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Höst Provpass 2 Kvantitativ</td>
+<td class="download">2018 Höst</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018ht-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Höst Provpass 3 Verbal</td>
+<td class="download">2018 Höst</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2018 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Höst Provpass 5 Verbal</td>
+<td class="download">2018 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver2</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver3.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver3</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver3</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver4.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver4</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver4</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver5.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver5</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver5</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver6.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver6</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver6</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver7.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver7</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver7</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-facit ver8.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Facit ver8</td>
+<td class="download">2018 Vår</td>
+<td class="download">Facit ver8</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-1-kvantitativ-version-1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 1 Kvantitativ ver 1</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 1 Kvantitativ ver 1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-1-kvantitativ-version-2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 1 Kvantitativ ver 2</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 1 Kvantitativ ver 2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 2 Verbal</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-4-kvantitativ-version-1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 4 Kvantitativ ver 1</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 4 Kvantitativ ver 1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-4-kvantitativ-version-2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 4 Kvantitativ ver 2</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 4 Kvantitativ ver 2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-5-verbal-version-1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 5 Verbal ver 1</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 5 Verbal ver 1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2018vt-provpass-5-verbal-version-2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2018 Vår Provpass 5 Verbal ver 2</td>
+<td class="download">2018 Vår</td>
+<td class="download">Provpass 5 Verbal ver 2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Höst Facit</td>
+<td class="download">2017 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017ht-provpass-1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Höst Provpass 1 Verbal</td>
+<td class="download">2017 Höst</td>
+<td class="download">Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017ht-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Höst Provpass 3 Kvantitativ</td>
+<td class="download">2017 Höst</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017ht-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Höst Provpass 4 Verbal</td>
+<td class="download">2017 Höst</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017ht-provpass-5-kvantitativ-version-1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Höst Provpass 5 Kvantitativ ver 1</td>
+<td class="download">2017 Höst</td>
+<td class="download">Provpass 5 Kvantitativ ver 1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017ht-provpass-5-kvantitativ-version-2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Höst Provpass 5 Kvantitativ ver 2</td>
+<td class="download">2017 Höst</td>
+<td class="download">Provpass 5 Kvantitativ ver 2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Facit</td>
+<td class="download">2017 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-provpass-1-kvantitativ-a.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Provpass 1 Kvantitativ A</td>
+<td class="download">2017 Vår</td>
+<td class="download">Provpass 1 Kvantitativ A</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-provpass-1-kvantitativ-b.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Provpass 1 Kvantitativ B</td>
+<td class="download">2017 Vår</td>
+<td class="download">Provpass 1 Kvantitativ B</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-provpass-3-verbal-a.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Provpass 3 Verbal A</td>
+<td class="download">2017 Vår</td>
+<td class="download">Provpass 3 Verbal A</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-provpass-3-verbal-b.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Provpass 3 Verbal B</td>
+<td class="download">2017 Vår</td>
+<td class="download">Provpass 3 Verbal B</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-provpass-4-kvantitativ-a.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Provpass 4 Kvantitativ A</td>
+<td class="download">2017 Vår</td>
+<td class="download">Provpass 4 Kvantitativ A</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2017vt-provpass-5-verbal-a.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2017 Vår Provpass 5 Verbal A</td>
+<td class="download">2017 Vår</td>
+<td class="download">Provpass 5 Verbal A</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Facit</td>
+<td class="download">2016 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 2 Verbal</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 3 Kvantitativ</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 4 Verbal</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-5-kvantitativ-p-version-1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 5 Kvantitativ P ver 1</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 5 Kvantitativ P ver 1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-5-kvantitativ-q-version-2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 5 Kvantitativ Q ver 2</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 5 Kvantitativ Q ver 2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-5-kvantitativ-r-version-3.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 5 Kvantitativ R ver 3</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 5 Kvantitativ R ver 3</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016ht-provpass-5-kvantitativ-s-version-4.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Höst Provpass 5 Kvantitativ S ver 4</td>
+<td class="download">2016 Höst</td>
+<td class="download">Provpass 5 Kvantitativ S ver 4</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Vår Facit</td>
+<td class="download">2016 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016vt-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Vår Provpass 2 Verbal</td>
+<td class="download">2016 Vår</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016vt-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Vår Provpass 3 Kvantitativ</td>
+<td class="download">2016 Vår</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016vt-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Vår Provpass 4 Verbal</td>
+<td class="download">2016 Vår</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2016vt-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2016 Vår Provpass 5 Kvantitativ</td>
+<td class="download">2016 Vår</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Höst Facit</td>
+<td class="download">2015 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015ht-provpass-1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Höst Provpass 1 Verbal</td>
+<td class="download">2015 Höst</td>
+<td class="download">Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015ht-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Höst Provpass 3 Kvantitativ</td>
+<td class="download">2015 Höst</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015ht-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Höst Provpass 4 Verbal</td>
+<td class="download">2015 Höst</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015ht-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Höst Provpass 5 Kvantitativ</td>
+<td class="download">2015 Höst</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Vår Facit</td>
+<td class="download">2015 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015vt-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Vår Provpass 2 Kvantitativ</td>
+<td class="download">2015 Vår</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015vt-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Vår Provpass 3 Verbal</td>
+<td class="download">2015 Vår</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015vt-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Vår Provpass 4 Kvantitativ</td>
+<td class="download">2015 Vår</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2015vt-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2015 Vår Provpass 5 Verbal</td>
+<td class="download">2015 Vår</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Höst Facit</td>
+<td class="download">2014 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014ht-provpass-1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Höst Provpass 1 Verbal</td>
+<td class="download">2014 Höst</td>
+<td class="download">Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014ht-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Höst Provpass 2 Kvantitativ</td>
+<td class="download">2014 Höst</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014ht-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Höst Provpass 4 Verbal</td>
+<td class="download">2014 Höst</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014ht-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Höst Provpass 5 Kvantitativ</td>
+<td class="download">2014 Höst</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Vår Facit</td>
+<td class="download">2014 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014vt-provpass-1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Vår Provpass 1 Kvantitativ</td>
+<td class="download">2014 Vår</td>
+<td class="download">Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014vt-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Vår Provpass 3 Verbal</td>
+<td class="download">2014 Vår</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014vt-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Vår Provpass 4 Kvantitativ</td>
+<td class="download">2014 Vår</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2014vt-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2014 Vår Provpass 5 Verbal</td>
+<td class="download">2014 Vår</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Höst Facit</td>
+<td class="download">2013 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013ht-provpass-1-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Höst Provpass 1 Verbal</td>
+<td class="download">2013 Höst</td>
+<td class="download">Provpass 1 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013ht-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Höst Provpass 3 Kvantitativ</td>
+<td class="download">2013 Höst</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013ht-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Höst Provpass 4 Verbal</td>
+<td class="download">2013 Höst</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013ht-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Höst Provpass 5 Kvantitativ</td>
+<td class="download">2013 Höst</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Vår Facit</td>
+<td class="download">2013 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013vt-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Vår Provpass 2 Kvantitativ</td>
+<td class="download">2013 Vår</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013vt-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Vår Provpass 3 Verbal</td>
+<td class="download">2013 Vår</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013vt-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Vår Provpass 4 Kvantitativ</td>
+<td class="download">2013 Vår</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2013vt-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2013 Vår Provpass 5 Verbal</td>
+<td class="download">2013 Vår</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Höst Facit</td>
+<td class="download">2012 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012ht-provpass-1-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Höst Provpass 1 Kvantitativ</td>
+<td class="download">2012 Höst</td>
+<td class="download">Provpass 1 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012ht-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Höst Provpass 2 Verbal</td>
+<td class="download">2012 Höst</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2012 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Höst Provpass 5 Verbal</td>
+<td class="download">2012 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Vår Facit</td>
+<td class="download">2012 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012vt-provpass-2-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Vår Provpass 2 Verbal</td>
+<td class="download">2012 Vår</td>
+<td class="download">Provpass 2 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012vt-provpass-3-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Vår Provpass 3 Kvantitativ</td>
+<td class="download">2012 Vår</td>
+<td class="download">Provpass 3 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012vt-provpass-4-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Vår Provpass 4 Verbal</td>
+<td class="download">2012 Vår</td>
+<td class="download">Provpass 4 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2012vt-provpass-5-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2012 Vår Provpass 5 Kvantitativ</td>
+<td class="download">2012 Vår</td>
+<td class="download">Provpass 5 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Höst Facit</td>
+<td class="download">2011 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011ht-provpass-2-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Höst Provpass 2 Kvantitativ</td>
+<td class="download">2011 Höst</td>
+<td class="download">Provpass 2 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011ht-provpass-3-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Höst Provpass 3 Verbal</td>
+<td class="download">2011 Höst</td>
+<td class="download">Provpass 3 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011ht-provpass-4-kvantitativ.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Höst Provpass 4 Kvantitativ</td>
+<td class="download">2011 Höst</td>
+<td class="download">Provpass 4 Kvantitativ</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011ht-provpass-5-verbal.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Höst Provpass 5 Verbal</td>
+<td class="download">2011 Höst</td>
+<td class="download">Provpass 5 Verbal</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Vår DTK</td>
+<td class="download">2011 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Vår ELF</td>
+<td class="download">2011 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Vår Facit</td>
+<td class="download">2011 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Vår LÄS</td>
+<td class="download">2011 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Vår NOG</td>
+<td class="download">2011 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2011vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2011 Vår ORD</td>
+<td class="download">2011 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Höst DTK</td>
+<td class="download">2010 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Höst ELF</td>
+<td class="download">2010 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Höst Facit</td>
+<td class="download">2010 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Höst LÄS</td>
+<td class="download">2010 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Höst NOG</td>
+<td class="download">2010 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Höst ORD</td>
+<td class="download">2010 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Vår DTK</td>
+<td class="download">2010 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Vår ELF</td>
+<td class="download">2010 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Vår Facit</td>
+<td class="download">2010 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Vår LÄS</td>
+<td class="download">2010 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Vår NOG</td>
+<td class="download">2010 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2010vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2010 Vår ORD</td>
+<td class="download">2010 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Höst DTK</td>
+<td class="download">2009 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Höst ELF</td>
+<td class="download">2009 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Höst Facit</td>
+<td class="download">2009 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Höst LÄS</td>
+<td class="download">2009 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Höst NOG</td>
+<td class="download">2009 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Höst ORD</td>
+<td class="download">2009 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Vår DTK</td>
+<td class="download">2009 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Vår ELF</td>
+<td class="download">2009 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Vår Facit</td>
+<td class="download">2009 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Vår LÄS</td>
+<td class="download">2009 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Vår NOG</td>
+<td class="download">2009 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2009vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2009 Vår ORD</td>
+<td class="download">2009 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Höst DTK</td>
+<td class="download">2008 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Höst ELF</td>
+<td class="download">2008 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Höst Facit</td>
+<td class="download">2008 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Höst LÄS</td>
+<td class="download">2008 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Höst NOG</td>
+<td class="download">2008 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Höst ORD</td>
+<td class="download">2008 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Vår DTK</td>
+<td class="download">2008 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Vår ELF</td>
+<td class="download">2008 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Vår Facit</td>
+<td class="download">2008 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Vår LÄS</td>
+<td class="download">2008 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Vår NOG</td>
+<td class="download">2008 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2008vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2008 Vår ORD</td>
+<td class="download">2008 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Höst DTK</td>
+<td class="download">2007 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Höst ELF</td>
+<td class="download">2007 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Höst Facit</td>
+<td class="download">2007 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Höst LÄS</td>
+<td class="download">2007 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Höst NOG</td>
+<td class="download">2007 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Höst ORD</td>
+<td class="download">2007 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Vår DTK</td>
+<td class="download">2007 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Vår ELF</td>
+<td class="download">2007 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Vår Facit</td>
+<td class="download">2007 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Vår LÄS</td>
+<td class="download">2007 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Vår NOG</td>
+<td class="download">2007 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2007vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2007 Vår ORD</td>
+<td class="download">2007 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Höst DTK</td>
+<td class="download">2006 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Höst ELF</td>
+<td class="download">2006 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Höst Facit</td>
+<td class="download">2006 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Höst LÄS</td>
+<td class="download">2006 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Höst NOG</td>
+<td class="download">2006 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Höst ORD</td>
+<td class="download">2006 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Vår DTK</td>
+<td class="download">2006 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Vår ELF</td>
+<td class="download">2006 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Vår Facit</td>
+<td class="download">2006 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Vår NOG</td>
+<td class="download">2006 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2006vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2006 Vår ORD</td>
+<td class="download">2006 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Höst DTK</td>
+<td class="download">2005 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Höst ELF</td>
+<td class="download">2005 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Höst Facit</td>
+<td class="download">2005 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Höst LÄS</td>
+<td class="download">2005 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Höst NOG</td>
+<td class="download">2005 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Höst ORD</td>
+<td class="download">2005 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Vår DTK</td>
+<td class="download">2005 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Vår ELF</td>
+<td class="download">2005 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Vår Facit</td>
+<td class="download">2005 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Vår LÄS</td>
+<td class="download">2005 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Vår NOG</td>
+<td class="download">2005 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2005vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2005 Vår ORD</td>
+<td class="download">2005 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Höst DTK</td>
+<td class="download">2004 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Höst ELF</td>
+<td class="download">2004 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Höst Facit</td>
+<td class="download">2004 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Höst LÄS</td>
+<td class="download">2004 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Höst NOG</td>
+<td class="download">2004 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Höst ORD</td>
+<td class="download">2004 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Vår DTK</td>
+<td class="download">2004 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Vår ELF</td>
+<td class="download">2004 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Vår Facit</td>
+<td class="download">2004 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Vår LÄS</td>
+<td class="download">2004 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Vår NOG</td>
+<td class="download">2004 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2004vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2004 Vår ORD</td>
+<td class="download">2004 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Höst DTK</td>
+<td class="download">2003 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Höst ELF</td>
+<td class="download">2003 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Höst Facit</td>
+<td class="download">2003 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Höst LÄS</td>
+<td class="download">2003 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Höst NOG</td>
+<td class="download">2003 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Höst ORD</td>
+<td class="download">2003 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Vår DTK</td>
+<td class="download">2003 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Vår ELF</td>
+<td class="download">2003 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Vår Facit</td>
+<td class="download">2003 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Vår LÄS</td>
+<td class="download">2003 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Vår NOG</td>
+<td class="download">2003 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2003vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2003 Vår ORD</td>
+<td class="download">2003 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Höst DTK</td>
+<td class="download">2002 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Höst ELF</td>
+<td class="download">2002 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Höst Facit</td>
+<td class="download">2002 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Höst LÄS</td>
+<td class="download">2002 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Höst NOG</td>
+<td class="download">2002 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Höst ORD</td>
+<td class="download">2002 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Vår DTK</td>
+<td class="download">2002 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Vår ELF</td>
+<td class="download">2002 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Vår Facit</td>
+<td class="download">2002 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Vår LÄS</td>
+<td class="download">2002 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Vår NOG</td>
+<td class="download">2002 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2002vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2002 Vår ORD</td>
+<td class="download">2002 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Höst DTK</td>
+<td class="download">2001 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Höst ELF</td>
+<td class="download">2001 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Höst Facit</td>
+<td class="download">2001 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Höst LÄS</td>
+<td class="download">2001 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Höst NOG</td>
+<td class="download">2001 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Höst ORD</td>
+<td class="download">2001 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Vår DTK</td>
+<td class="download">2001 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Vår ELF</td>
+<td class="download">2001 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Vår Facit</td>
+<td class="download">2001 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Vår LÄS</td>
+<td class="download">2001 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Vår NOG</td>
+<td class="download">2001 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2001vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2001 Vår ORD</td>
+<td class="download">2001 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Höst DTK</td>
+<td class="download">2000 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Höst ELF</td>
+<td class="download">2000 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Höst Facit</td>
+<td class="download">2000 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Höst LÄS</td>
+<td class="download">2000 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Höst NOG</td>
+<td class="download">2000 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Höst ORD</td>
+<td class="download">2000 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Vår DTK</td>
+<td class="download">2000 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Vår ELF</td>
+<td class="download">2000 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Vår Facit</td>
+<td class="download">2000 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Vår LÄS</td>
+<td class="download">2000 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Vår NOG</td>
+<td class="download">2000 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/2000vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 2000 Vår ORD</td>
+<td class="download">2000 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Höst DTK</td>
+<td class="download">1999 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Höst ELF</td>
+<td class="download">1999 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Höst Facit</td>
+<td class="download">1999 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Höst LÄS</td>
+<td class="download">1999 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Höst NOG</td>
+<td class="download">1999 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Höst ORD</td>
+<td class="download">1999 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Vår DTK</td>
+<td class="download">1999 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Vår ELF</td>
+<td class="download">1999 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Vår Facit</td>
+<td class="download">1999 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Vår LÄS</td>
+<td class="download">1999 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Vår NOG</td>
+<td class="download">1999 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1999vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1999 Vår ORD</td>
+<td class="download">1999 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Höst DTK</td>
+<td class="download">1998 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Höst ELF</td>
+<td class="download">1998 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Höst Facit</td>
+<td class="download">1998 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Höst LÄS</td>
+<td class="download">1998 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Höst NOG</td>
+<td class="download">1998 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Höst ORD</td>
+<td class="download">1998 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Vår DTK</td>
+<td class="download">1998 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Vår ELF</td>
+<td class="download">1998 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Vår Facit</td>
+<td class="download">1998 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Vår LÄS</td>
+<td class="download">1998 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Vår NOG</td>
+<td class="download">1998 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1998vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1998 Vår ORD</td>
+<td class="download">1998 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997ht-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Höst ELF</td>
+<td class="download">1997 Höst</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Höst Facit</td>
+<td class="download">1997 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Höst LÄS</td>
+<td class="download">1997 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Höst NOG</td>
+<td class="download">1997 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Höst ORD</td>
+<td class="download">1997 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997vt-elf.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Vår ELF</td>
+<td class="download">1997 Vår</td>
+<td class="download">ELF</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Vår Facit</td>
+<td class="download">1997 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Vår LÄS</td>
+<td class="download">1997 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Vår NOG</td>
+<td class="download">1997 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1997vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1997 Vår ORD</td>
+<td class="download">1997 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1996ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1996 Höst Alla delar</td>
+<td class="download">1996 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1996vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1996 Vår DTK</td>
+<td class="download">1996 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1996vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1996 Vår Facit</td>
+<td class="download">1996 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1996vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1996 Vår LÄS</td>
+<td class="download">1996 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1996vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1996 Vår NOG</td>
+<td class="download">1996 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1996vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1996 Vår ORD</td>
+<td class="download">1996 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1995ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1995 Höst Alla delar</td>
+<td class="download">1995 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1995vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1995 Vår Alla delar</td>
+<td class="download">1995 Vår</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1994ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1994 Höst Alla delar</td>
+<td class="download">1994 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1994vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1994 Vår DTK</td>
+<td class="download">1994 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1994vt-las1.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1994 Vår LÄS1</td>
+<td class="download">1994 Vår</td>
+<td class="download">LÄS1</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1994vt-las2.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1994 Vår LÄS2</td>
+<td class="download">1994 Vår</td>
+<td class="download">LÄS2</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1994vt-las3.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1994 Vår LÄS3</td>
+<td class="download">1994 Vår</td>
+<td class="download">LÄS3</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1994vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1994 Vår NOG</td>
+<td class="download">1994 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Höst DTK</td>
+<td class="download">1993 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Höst Facit</td>
+<td class="download">1993 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Höst LÄS</td>
+<td class="download">1993 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Höst NOG</td>
+<td class="download">1993 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Höst ORD</td>
+<td class="download">1993 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Vår DTK</td>
+<td class="download">1993 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Vår Facit</td>
+<td class="download">1993 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Vår LÄS</td>
+<td class="download">1993 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Vår NOG</td>
+<td class="download">1993 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1993vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1993 Vår ORD</td>
+<td class="download">1993 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Höst DTK</td>
+<td class="download">1992 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Höst Facit</td>
+<td class="download">1992 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Höst LÄS</td>
+<td class="download">1992 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Höst NOG</td>
+<td class="download">1992 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Höst ORD</td>
+<td class="download">1992 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Vår DTK</td>
+<td class="download">1992 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Vår LÄS</td>
+<td class="download">1992 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Vår NOG</td>
+<td class="download">1992 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1992vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1992 Vår ORD</td>
+<td class="download">1992 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Höst DTK</td>
+<td class="download">1991 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Höst Facit</td>
+<td class="download">1991 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Höst LÄS</td>
+<td class="download">1991 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Höst NOG</td>
+<td class="download">1991 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Höst ORD</td>
+<td class="download">1991 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Vår Alla delar</td>
+<td class="download">1991 Vår</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1991vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1991 Vår Facit</td>
+<td class="download">1991 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Höst Alla delar</td>
+<td class="download">1990 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Höst Facit</td>
+<td class="download">1990 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Vår DTK</td>
+<td class="download">1990 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Vår Facit</td>
+<td class="download">1990 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Vår LÄS</td>
+<td class="download">1990 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Vår NOG</td>
+<td class="download">1990 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1990vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1990 Vår ORD</td>
+<td class="download">1990 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Höst Facit</td>
+<td class="download">1989 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Höst LÄS</td>
+<td class="download">1989 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Höst NOG</td>
+<td class="download">1989 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Höst ORD</td>
+<td class="download">1989 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Vår DTK</td>
+<td class="download">1989 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Vår Facit</td>
+<td class="download">1989 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989vt-nog_las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Vår NOG och LÄS</td>
+<td class="download">1989 Vår</td>
+<td class="download">NOG och LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1989vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1989 Vår ORD</td>
+<td class="download">1989 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Höst DTK</td>
+<td class="download">1988 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988ht-facit_ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Höst Facit och ORD</td>
+<td class="download">1988 Höst</td>
+<td class="download">Facit och ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Höst LÄS</td>
+<td class="download">1988 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Höst NOG</td>
+<td class="download">1988 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Vår DTK</td>
+<td class="download">1988 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Vår Facit</td>
+<td class="download">1988 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Vår LÄS</td>
+<td class="download">1988 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Vår NOG</td>
+<td class="download">1988 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1988vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1988 Vår ORD</td>
+<td class="download">1988 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Höst DTK</td>
+<td class="download">1987 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Höst Facit</td>
+<td class="download">1987 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Höst LÄS</td>
+<td class="download">1987 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Höst NOG</td>
+<td class="download">1987 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Höst ORD</td>
+<td class="download">1987 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Vår DTK</td>
+<td class="download">1987 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Vår Facit</td>
+<td class="download">1987 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Vår LÄS</td>
+<td class="download">1987 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Vår NOG</td>
+<td class="download">1987 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1987vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1987 Vår ORD</td>
+<td class="download">1987 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Höst DTK</td>
+<td class="download">1986 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Höst Facit</td>
+<td class="download">1986 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Höst LÄS</td>
+<td class="download">1986 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Höst ORD</td>
+<td class="download">1986 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Vår DTK</td>
+<td class="download">1986 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Vår Facit</td>
+<td class="download">1986 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Vår LÄS</td>
+<td class="download">1986 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Vår NOG</td>
+<td class="download">1986 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1986vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1986 Vår ORD</td>
+<td class="download">1986 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Höst DTK</td>
+<td class="download">1985 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Höst Facit</td>
+<td class="download">1985 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985ht-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Höst LÄS</td>
+<td class="download">1985 Höst</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Höst NOG</td>
+<td class="download">1985 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Höst ORD</td>
+<td class="download">1985 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Vår DTK</td>
+<td class="download">1985 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Vår LÄS</td>
+<td class="download">1985 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Vår NOG</td>
+<td class="download">1985 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1985vt-ord_facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1985 Vår ORD och Facit</td>
+<td class="download">1985 Vår</td>
+<td class="download">ORD och Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1984ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1984 Höst DTK</td>
+<td class="download">1984 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1984vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1984 Vår DTK</td>
+<td class="download">1984 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1984vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1984 Vår Facit</td>
+<td class="download">1984 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1984vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1984 Vår LÄS</td>
+<td class="download">1984 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1984vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1984 Vår NOG</td>
+<td class="download">1984 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1984vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1984 Vår ORD</td>
+<td class="download">1984 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983ht-dtk_las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Höst DTK och LÄS</td>
+<td class="download">1983 Höst</td>
+<td class="download">DTK och LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983ht-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Höst Facit</td>
+<td class="download">1983 Höst</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Höst NOG</td>
+<td class="download">1983 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983ht-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Höst ORD</td>
+<td class="download">1983 Höst</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Vår DTK</td>
+<td class="download">1983 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Vår Facit</td>
+<td class="download">1983 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Vår LÄS</td>
+<td class="download">1983 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1983vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1983 Vår NOG</td>
+<td class="download">1983 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982ht-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Höst DTK</td>
+<td class="download">1982 Höst</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982ht-facit_ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Höst Facit och ORD</td>
+<td class="download">1982 Höst</td>
+<td class="download">Facit och ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982ht-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Höst NOG</td>
+<td class="download">1982 Höst</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982vt-dtk.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Vår DTK</td>
+<td class="download">1982 Vår</td>
+<td class="download">DTK</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982vt-facit.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Vår Facit</td>
+<td class="download">1982 Vår</td>
+<td class="download">Facit</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982vt-las.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Vår LÄS</td>
+<td class="download">1982 Vår</td>
+<td class="download">LÄS</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982vt-nog.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Vår NOG</td>
+<td class="download">1982 Vår</td>
+<td class="download">NOG</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1982vt-ord.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1982 Vår ORD</td>
+<td class="download">1982 Vår</td>
+<td class="download">ORD</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1981ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1981 Höst Alla delar</td>
+<td class="download">1981 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1981vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1981 Vår Alla delar</td>
+<td class="download">1981 Vår</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1980ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1980 Höst Alla delar</td>
+<td class="download">1980 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1980vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1980 Vår Alla delar</td>
+<td class="download">1980 Vår</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1979ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1979 Höst Alla delar</td>
+<td class="download">1979 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1979vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1979 Vår Alla delar</td>
+<td class="download">1979 Vår</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1978ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1978 Höst Alla delar</td>
+<td class="download">1978 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1978vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1978 Vår Alla delar</td>
+<td class="download">1978 Vår</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1977ht-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1977 Höst Alla delar</td>
+<td class="download">1977 Höst</td>
+<td class="download">Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1977vt-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1977 Vår Prov 1 Alla delar</td>
+<td class="download">1977 Vår</td>
+<td class="download">Prov 1 Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>
+
+<tr class="download" onclick="window.open('pdf/1977vt2-alla.pdf#zoom=100&amp;view=Fit&amp;toolbar=1')">
+<td class="w3-hide">Högskoleprovet 1977 Vår Prov 2 Alla delar</td>
+<td class="download">1977 Vår</td>
+<td class="download">Prov 2 Alla delar</td>
+<td class="download"><i class="fas fa-file-pdf"></i></td>
+</tr>

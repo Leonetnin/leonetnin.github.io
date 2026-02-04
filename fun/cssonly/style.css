@@ -1,10 +1,43 @@
-html {
-    background-color: rgb(106, 130, 171);
+:root {
+    --test: 20px
 }
+
+
 
 body::after {
     font-family: Impact;
     font-size: 110px;
-    content: 'NOELS CSS SIDA! \a \a hej';
+    content: 'NOELS CSS SIDA! \a \a hej\a' counter(hej);
     white-space: pre;
 }
+body {
+    background: repeating-radial-gradient(
+        black 0px 10px,
+        white 10px var()
+    );
+    background-size: 100px 100px;
+    animation: move 2s infinite linear;
+}
+
+body:active{
+    counter-increment: hej 1;
+}
+
+/*
+background: repeating-linear-gradient(
+    -45deg,
+    rgb(75, 137, 78) 0 15px,
+    rgb(41, 116, 46) 15px 35.41px
+);
+background-size: 100px 100px;
+animation: move 2s infinite linear
+
+@keyframes move {
+    0% {
+        background-position: initial;
+    }
+    100%{
+        background-position: 100px 0px;
+    }
+}
+*/

@@ -10,8 +10,8 @@
 body {
     background: repeating-linear-gradient(
         -45deg,
-        white 0px 15px,
-        rgb(233, 233, 233) 15px 35.4px
+        rgb(248, 248, 248) 0px 15px,
+        rgb(238, 238, 238) 15px 35.4px
     );
     animation: move-it 2s linear infinite;
     background-size: 100px 100px;
