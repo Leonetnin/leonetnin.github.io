@@ -48,7 +48,7 @@ function drawParticles(delta){
         } else {
             particles[i][4]-=1
             let poop=255-((lifetime-particles[i][4])/lifetime)*255
-            rectangle(particles[i][0],particles[i][1],particles[i][4]/particles[i][5],particles[i][4]/particles[i][5],rgb(poop,poop,poop),particles[i][6]*360+(lifetime-particles[i][4])*(1+particles[i][6]))
+            rectangle(particles[i][0],particles[i][1],particles[i][4]/particles[i][5],particles[i][4]/particles[i][5],rgb(poop,poop,poop),undefined,undefined,particles[i][6]*360+(lifetime-particles[i][4])*(1+particles[i][6]))
         }
     }
 }
@@ -61,6 +61,6 @@ function collision(x,y,sideX,sideY){
     for (let i=0; i<particleAmount;i++){
         let speed=Math.random()*0.15
         let direction=Math.random()*180+90*collisionOrientation
-        particles.push([x+sideX*i/particleAmount,y+sideY*i/particleAmount,speed*Math.sin(toRadians(direction)),speed*Math.cos(toRadians(direction)),lifetime,Math.random()*70+40,Math.random()])
+        particles.push([x+sideX*i/particleAmount,y+sideY*i/particleAmount,speed*Math.sin(toRadians(direction)),speed*Math.cos(toRadians(direction)),lifetime,Math.random()*2+10,Math.random()])
     }
 }

@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+.toolbar {
+    display: inline;
+}
+
+.logo {
+    display: inline;
+    img {
+        margin: 5px;
+        width: 100px;
+    }
+}
+
+.tools {
+    display: inline;
+}
