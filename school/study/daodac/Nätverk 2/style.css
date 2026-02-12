@@ -1,0 +1,54 @@
+body {
+    counter-reset: total;
+}
+
+.checklist input:checked {
+    counter-increment: total;
+}
+
+.checklistCounter span::after {
+    content: counter(total);
+}
+
+.checklist ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro {
+    margin-top: -20px;
+    padding-top: 0px;
+}
+img {
+    margin: 5px;
+    width: 100px;
+}
+
+.info {
+    label {
+        user-select: none;
+    }
+    label::before{
+        content: "▶ ";
+    }
+    input:checked ~ label::before {
+        content: "▼ ";
+    }
+    input[type=checkbox] {
+        display:none;
+    }
+    ul {
+        list-style: none;
+        display: none;
+        margin: 5px;
+        padding: 0px 20px;
+    }
+    input:checked ~ ul {
+        display: block;
+    }
+}

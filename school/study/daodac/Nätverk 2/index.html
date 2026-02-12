@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nätverk 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="https://noelastrom.se"><img src="/images/playlogo.png"></a>
+    </div>
+    <div class="intro">
+        <h1>Nätverk 2 Prov</h1>
+        <p>Här finns material till provet. fäll ut fälten och läs på. All info hämtade jag ifrån Axels presentationer och delvis Wikipedia. Ingen pesky AI användning här btw (obviously).</p>
+    </div>
+    <div class="info">
+        <h2>Info</h2>
+        <div class="osi">
+            <input id="osi" type="checkbox" class="collapse">
+            <label for="osi">OSI-modellen</label>
+            <ul>
+                <li>OSI-modellen är en teoretisk modell som beskriver olika delar av nätverkstegnologin, olika fysiska enheter tar hand om olika delar i OSI-modellen: Router, Switch och Kabel.</li>
+                <li>De sju lagrerna i OSI-modellen:</li>
+                <ol>
+                    <li>Applikationslagret - Användare använder det för att kommunicera med program (applikationer)</li>
+                    <li>Presentationslagret - Ett lager som hanterar dataöversättning, kryptering och komprimering.</li>
+                    <li>Sessionslagret - Öppnar och upprätthåller sessioner mellan klienter. <br> - Simplex: envägskommunikation; <br> - Halfduplex: Tvåvägskommunikation men bara en i taget; <br> - Full-duplex: Tvåvägskommunikation</li>
+                    <li>Transportlagret - Används för att t.ex bestämma vad som händer om något går fel i transporten. TCP och UDP är två olika sätt som internetkommunikation kan transporteras med. TCP tar längre tid men ser till att allt kommer fram korrekt. UDP går snabbare men data kan förloras eller komma i fel ordning, används oftast för att strömma video.</li>
+                    <li>Nätverkslagret - Ett lager som hittar rätt väg genom nätverket för data att skickas. Routrar.</li>
+                    <li>Datalänklagret - Lagret som sköter kommunikation mellan fysiska enheter.</li>
+                    <li>Fysiska lagret - Kablarna som skickar datat, som t.ex en ethernet-kablar.</li>
+                </ol>
+            </ul>
+        </div>
+        <div class="tcp">
+            <input id="tcp" type="checkbox" class="collapse">
+            <label for="tcp">TCP/IP-modellen</label>
+            <ul>
+                <li>TCP/IP är en arkitektur för datakommunikation, lik OSI-modellen förutom med 4-5 lager (4 som vi använder på DNTn)</li>
+                <li>De fyra lagrerna i TCP/IP modellen:</li>
+                <ol>
+                    <li>Applikationslagret - Slår ihop de tre högsta lagren i OSI-modellen (Applikation, Presentation, Session). HTTP(HyperText Transfer Protocol) - hemsidor på internet, HTTPS - krypterad version av HTTP, FTP - File transfer protocol skickar filer mellan server och klient. DHCP - Tilldelar IP-adresser automatiskt.  DNS - Översätter domännamn till IP-adresser.</li>
+                    <li>Transportlagret - TCP och UDP (motsvarar OSIs transportlager)</li>
+                    <li>Nätverkslagret - IPv4 och IPv6 (motsvarar OSIs nätverkslager)</li>
+                    <li>Datalänklagret -  Slår ihop OSI-modellens fysiska och datalänk lager, Hanterar MAC adresser: datorns fysiska adress. Kommunikation med t.ex wi-fi eller ethernetsladd som undviker kollisioner som sker i överföringen.</li>
+                </ol>
+            </ul>
+        </div>
+        <div class="nat">
+            <input id="nat" type="checkbox" class="collapse">
+            <label for="nat">NAT</label>
+            <ul>
+                <li>Står för Network adress translation, Tekniken gör det möjligt att ansluta många datorer till en internetanslutning med en eller några gemensamma IP-adresser. När en dator ska hämta en hemsida så översätter routern datorns privata IP-adress till routerns offentliga IP-adress. Routern håller koll på vilken dator som just skickade ett meddelande så den kan skicka svaret till rätt privata IP-adress genom att åter översätta den. (det finns inte nog med IPv4 adresser för varje enhet)</li>
+            </ul>
+        </div>
+        <div class="port">
+            <input id="port" type="checkbox" class="collapse">
+            <label for="port">Port forward</label>
+            <ul>
+                <li>Varje router (och även datorer) har flera portar. På routern konifigurerar man en regel som kopplar ihop en port med en privat IP-adress. När man sedan frågar att komma åt servern måste man alltså både veta routerns offentliga IP och vilken port man vill komma åt.</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="checklist">
+        <h2>Checklista</h2>
+        <p>Har du koll på allting? Du kan ta hjälp av den här listan för att hålla koll på vilka koncept du är säker på och vilka som du behöver läsa på om.</p>
+        <ul>
+            <li><input type="checkbox">OSI-modellen</li>
+            <li><input type="checkbox">TCP/IP</li>
+            <li><input type="checkbox">NAT</li>
+            <li><input type="checkbox">Port forward</li>
+        </ul>
+        <p class="checklistCounter">Du kan <span></span>/4 områden</p>
+    </div>
+    <hr>
+    <div class="material">
+        <h2>Råmaterial</h2>
+        <p>Här är allt oredigerat material som Axel bifogat i kursteamet</p>
+        <a href="https://teams.microsoft.com/l/entity/77be3f72-7c14-415f-992c-3511dd54a4ae/classwork?context=%7B%22channelId%22%3A%2219%3AbFKu-EGiRTPehRv9aix_ywdkVzo1dXLEbibcXRjfEyQ1%40thread.tacv2%22%2C%22contextType%22%3A%22channel%22%2C%22subEntityId%22%3A%22%7B%5C%22action%5C%22%3A%5C%22navigate%5C%22%2C%5C%22view%5C%22%3A%5C%22classwork-list%5C%22%2C%5C%22config%5C%22%3A%7B%5C%22classes%5C%22%3A%5B%7B%5C%22id%5C%22%3A%5C%22b7a2a47c-93c5-4669-bd40-2e197b0d1ee3%5C%22%2C%5C%22moduleIds%5C%22%3A%5B%5C%22b12f643b-c6e8-456c-abd0-7cd5f79000e7%5C%22%5D%7D%5D%7D%2C%5C%22deeplinkType%5C%22%3A4%7D%22%7D&groupId=b7a2a47c-93c5-4669-bd40-2e197b0d1ee3&tenantId=066f0b11-5f4b-4d81-a514-93cb50287062&openInMeeting=false&isTeamLevelApp=true">Länk till teams modul</a>
+    </div>
+</body>
+</html>
