@@ -52,3 +52,44 @@ img {
         display: block;
     }
 }
+
+/*ADDITIONAL CSS, ONLY FOR STYLING PURPOSES*/
+body {
+    background-color: rgb(43, 60, 105);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    label {
+        background-color: rgb(63, 82, 130);
+        border-radius: 15px;
+        border: solid;
+        padding: 10px;
+    }
+    .info div {
+        margin: 30px 0px;
+    }
+    .info ul {
+        border: solid;
+        margin: 15px 0px;
+        padding: 15px;
+        background-color: rgb(73, 89, 129);
+    }
+    .logo {
+        margin-bottom: 15px;
+    }
+    .intro {
+        border: solid;
+        padding: 0px 10px;
+        background-color: rgb(63, 82, 130);
+    }
+    a {
+        color: white;
+    }
+
+    textarea {
+        border: solid;
+        background-color: rgb(83, 83, 133);
+        width: calc(100% - 7px);
+        height: 200px;
+        resize: vertical;
+    }
+}
