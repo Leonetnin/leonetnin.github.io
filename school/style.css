@@ -1,0 +1,34 @@
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    user-select: none;
+    display: block;
+}
+
+input:checked ~ ul{
+    display: block;
+    transform: scaleY(1);
+    transition: 2000ms;
+}
+
+label::before {
+    content: "▶";
+    display: inline-block;
+    transition-duration: 200ms;
+}
+
+input:checked ~ label::before{
+    transition-duration: 200ms;
+    transform: rotate(90deg);
+}
+
+ul {
+    transform: scaleY(0);
+    transition-duration: 200ms;
+    display: none;
+    transform-origin: top;
+    background-color: blue;
+    list-style: none;
+}

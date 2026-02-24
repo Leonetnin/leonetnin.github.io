@@ -1,0 +1,45 @@
+@keyframes move-it {
+    0% {
+        background-position: initial;
+    }
+    100% {
+        background-position: 200px 0px;
+    }
+}
+
+body {
+    background: repeating-linear-gradient(
+        -45deg,
+        rgb(248, 248, 248) 0px 15px,
+        rgb(238, 238, 238) 15px 35.4px
+    );
+    animation: move-it 2s linear infinite;
+    background-size: 100px 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    img {
+        position: absolute;
+        top: 20vh;
+        width: 50vw;
+    }
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+    a {
+        font-family: comic sans ms;
+        padding: 10px;
+        margin: 10px;
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border-style: solid;
+        border-radius: 10px;
+    }
+}
+

@@ -1,0 +1,43 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    user-select: none;
+    background-color: blue;
+    border: 5px solid;
+    padding: 10px;
+}
+
+label::before {
+    display: inline-block;
+    content: "➤";
+    transition-duration: 500ms;
+}
+
+
+label:has(input:checked)::before {
+    transform-origin: center;
+    transform: rotate(90deg);
+    transition-duration: 500ms;
+}
+
+ul {
+    z-index: -1;
+    background-color: blue;
+    border: 5px solid;
+    margin-top: 10px;
+    display: block;
+    transform-origin: top center;
+    transform: translateY(-100%);
+    transition-duration: 500ms;
+    clip-path: inset(100% 0 0 0);
+}
+
+label:has(input:checked) + ul {
+    transform: translateY(0px);
+    display: block;
+    clip-path: inset(0 0 0 0);
+
+}
