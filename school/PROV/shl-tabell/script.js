@@ -28,11 +28,11 @@ const rows = document.getElementsByTagName("td")
 function loaded() {
     const lag = Object.keys(shldata)
     let first = ""
-    if (shldata[lag[0]].points>shldata[lag[1]].points){
+    if (+shldata[lag[0]].points > +shldata[lag[1]].points){
         first="SKE"
     } else {
-        if (shldata[lag[0]].points==shldata[lag[1]].points) {
-            if (shldata[lag[0]].diff>shldata[lag[1]].diff) {
+        if (+shldata[lag[0]].points== +shldata[lag[1]].points) {
+            if (+shldata[lag[0]].diff > +shldata[lag[1]].diff) {
                 first="SKE"
             } else {
                 first="FHC"
