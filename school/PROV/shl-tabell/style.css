@@ -1,0 +1,71 @@
+th, td {
+    border: 1px solid lightblue;
+}
+
+#lag {
+    width: 100px;
+    text-align: left;
+}
+
+table {
+    border-spacing: 0;
+    text-align: center;
+}
+
+.lag {
+    display:flex;
+}
+img {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin: 0 10px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+tr:has(input:checked) + tr {
+    display: table-row;
+    td {
+        display:table-cell;
+        height: 70px;
+    }
+}
+
+label::before {
+    display: flex;
+    content: "➤";
+    transition-duration: 500ms;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+label:has(input:checked)::before {
+    transform: rotate(90deg);
+    transition-duration: 500ms;
+}
+
+.info {
+    display: none;
+}
+
+.laginfo {
+    display: flex;
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    p {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
+
+#pointfhc {
+    border: solid 2px black;
+}
+#pointske {
+    border: solid 2px black;
+}

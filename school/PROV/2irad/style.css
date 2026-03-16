@@ -1,0 +1,35 @@
+h1 {
+    font-family: comic sans ms;
+}
+
+
+table {
+    margin: 0px;
+    padding: 0;
+}
+
+th {
+    font-size: 40px;
+    border: solid 5px black;
+    background-color: red;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+td {
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+img {
+    margin: 0;
+    width: 99px;
+    height: 99px;
+}
+

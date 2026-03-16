@@ -1,0 +1,33 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    user-select: none;
+}
+
+label::before {
+    display: inline-block;
+    content: "➤";
+    transition-duration: 100ms;
+}
+
+
+label:has(input:checked)::before {
+    transform-origin: center;
+    transform: rotate(90deg);
+    transition-duration: 100ms;
+}
+
+ul {
+    display: none;
+}
+
+label:has(input:checked) + ul {
+    display: block;
+}
+
+#pointsfhc {
+    border: solid 4px black;
+}
