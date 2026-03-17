@@ -13,7 +13,10 @@ for (let i = 0; i < cells.length; i++) {
             const win = document.createElement("p")
             win.innerText="Kryss vann!"
             document.body.appendChild(win)
-            element.onclick = null
+            for (let i = 0; i < cells.length; i++) {
+                const element = cells[i];
+                element.onclick = null
+            }
         }
     }
 }
