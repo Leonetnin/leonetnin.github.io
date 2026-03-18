@@ -1,0 +1,98 @@
+{
+	"classes": {
+		"TE24a":{
+			"Omar Almohamed": {
+				"personnummer": "20080601",
+				"kön": "m"
+			},
+			"River Bergqvist":{
+				"personnummer": "20080410",
+				"kön": "m"
+			},
+			"Josef Ekblom":{
+				"personnummer": "20081112",
+				"kön": "m"
+			},
+			"Ivar Forsell":{
+				"personnummer": "20080908",
+				"kön": "m"
+			},
+			"Ted Gustafsson":{
+				"personnummer": "20080711",
+				"kön": "m"
+			},
+			"Imre Gyllengahm":{
+				"personnummer": "20080520",
+				"kön": "m"
+			},
+			"Yusuf Hasan":{
+				"personnummer": "20081020",
+				"kön": "m"
+			},
+			"Ludvig Jansson":{
+				"personnummer": "20080614",
+				"kön": "m"
+			},
+			"Jonas Johansson":{
+				"personnummer": "20070315",
+				"kön": "m"
+			},
+			"Robin Johansson":{
+				"personnummer": "20080104",
+				"kön": "m"
+			},
+			"Pascal Krausser":{
+				"personnummer": "20080602",
+				"kön": "m"
+			},
+			"Anton Lindholm":{
+				"personnummer": "20080306",
+				"kön": "m"
+			},
+			"Samuel Långström":{
+				"personnummer": "20080211",
+				"kön": "m"
+			},
+			"Arvid Magnusson":{
+				"personnummer": "20081213",
+				"kön": "m"
+			},
+			"Isabella Magnusson":{
+				"personnummer": "20080627",
+				"kön": "f"
+			},
+			"Adrian Nilsson":{
+				"personnummer": "20070820",
+				"kön": "m"
+			},
+			"Ismael Omayrat":{
+				"personnummer": "20081222",
+				"kön": "m"
+			},
+			"Simon Rudholm":{
+				"personnummer": "20060105",
+				"kön": "m"
+			},
+			"Aaryan Sarath":{
+				"personnummer": "20080629",
+				"kön": "m"
+			},
+			"Tor Vargmar":{
+				"personnummer": "20080528",
+				"kön": "m"
+			},
+			"Nathan Zellman":{
+				"personnummer": "20080605",
+				"kön": "m"
+			},
+			"Noel Åström":{
+				"personnummer": "20080926",
+				"kön": "m"
+			}
+		},
+		"TE24b":{
+
+		}
+
+	}
+}
