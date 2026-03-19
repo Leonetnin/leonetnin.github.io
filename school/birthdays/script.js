@@ -17,7 +17,6 @@ for (let i=0; i<Object.keys(students).length;i++){
 
 let person = studentsort.indexOf(lowest[1])
 
-updateBirth()
 
 for (let j=0; j<3; j++) {
     for (let i=0; i<studentsort.length;i++){
@@ -27,10 +26,8 @@ for (let j=0; j<3; j++) {
     }
 }
 
-list.children[person+22].style="text-decoration: underline;"
-
-
-let _scrollY = scrolldiv.scrollHeight/3/studentsort.length*(person-1.5)+scrolldiv.scrollHeight/3-15-person
+updateBirth()
+let _scrollY = scrolldiv.scrollHeight/3/studentsort.length*(person)+scrolldiv.scrollHeight/3-15-person-window.innerHeight/2.3+50
 scrolldiv.scrollTo(0, _scrollY)
 
 
@@ -48,13 +45,9 @@ document.addEventListener("keydown", (e)=>{
     } else {
         return null
     }
-    for (let i=0; i<list.children.length;i++) {
-        list.children[i].style=""
-    }
-    list.children[person+22].style="text-decoration: underline;"
     updateBirth()
-
-    _scrollY = scrolldiv.scrollHeight/3/studentsort.length*(person-1.5)+scrolldiv.scrollHeight/3-15-person
+    
+    _scrollY = scrolldiv.scrollHeight/3/studentsort.length*(person)+scrolldiv.scrollHeight/3-15-person-window.innerHeight/2.3+50
     scrolldiv.scrollTo(0, _scrollY)
     //document.getElementsByTagName("h1")[0].innerText=scrolldiv.scrollTop+","+scrolldiv.scrollHeight+", "+_scrollY
 })
@@ -69,11 +62,15 @@ function updateBirth() {
     let currentTime = new Date(today.getFullYear(),studentBirth.toString().substring(4,6)-1,studentBirth.toString().substring(6,8))
     let dagar = Math.ceil((currentTime.getTime()-today.getTime())/86400000)
     let year = (today.getFullYear()-Number(studentBirth.toString().substring(0,4)))
-
+    
     if (dagar<0) {
         year+=1
         dagar+=365
     }
-
-    document.getElementById("scrid").innerHTML=studentName+" fyller "+ year + " år om "+dagar+" dagar<br>" + (students[studentName].kön=="m"?"Hans":"Hennes") + " födelsedag är den "+(+studentBirth.substring(6, 8)) +" "+ months[+studentBirth.substring(4, 6)]
+    
+    document.getElementById("scrid").innerHTML=studentName+" fyller "+ year + " år om "+dagar+" dagar<br>" + (students[studentName].kön=="m"?"Hans":"Hennes") + " födelsedag är den "+(+studentBirth.substring(6, 8)) +" "+ months[+studentBirth.substring(4, 6)-1]
+    for (let i=0; i<list.children.length;i++) {
+        list.children[i].style="color: grey;"
+    }
+    list.children[person+22].style="text-decoration: underline;"
 }
