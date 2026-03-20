@@ -1,31 +1,38 @@
-let drags = document.getElementsByClassName("drag")
+let drags = [].slice.call(document.getElementsByClassName("drag"))
 let dragTarget = []
-let follow = false
+let follow = -1
 let mousex, mousey = 0
 let targetmouse = [window.innerWidth/2,window.innerHeight/2]
 
 let speed = 0.15
-
 for (let i=0; i<drags.length; i++) {
-    drags[i].onmousedown = () => {follow=drags.indexOf(this)}
-    dragTarget[i]=[drags[i].style.left]
+    let style =window.getComputedStyle(drags[i])
+    drags[i].onmousedown = () => {follow=i}
+    dragTarget[i]=[pxToInt(style.getPropertyValue('left')),pxToInt(style.getPropertyValue('top'))]
 }
 window.onmouseup = () => {follow=-1}
 
 function update() {
-    if (follow) {
-        targetmouse=[mousex-plane.width/2,mousey-plane.height/2]
+    if (follow!=-1) {
+        dragTarget[follow]=[mousex-drags[follow].offsetWidth/2,mousey-drags[follow].offsetHeight/2]
+        console.log(drags[follow].offsetWidth)
     }
-    let positionx = +plane.style.left.split("px")[0]
-    let positiony = +plane.style.top.split("px")[0]
-    if (positionx!=targetmouse[0]) {
-        plane.style.left=(positionx+(targetmouse[0]-positionx)*speed)+"px"
-    }
-    if (positiony!=targetmouse[1]) {
-        plane.style.top=(positiony+(targetmouse[1]-positiony)*speed)+"px"
+    for (let i=0; i<drags.length; i++) {
+        let positionx = pxToInt(drags[i].style.left)
+        let positiony = pxToInt(drags[i].style.top)
+        if (positionx!=targetmouse[0]) {
+            drags[i].style.left=(positionx+(dragTarget[i][0]-positionx)*speed)+"px"
+        }
+        if (positiony!=targetmouse[1]) {
+            drags[i].style.top=(positiony+(dragTarget[i][1]-positiony)*speed)+"px"
+        }
     }
     requestAnimationFrame(update)
 }
 requestAnimationFrame(update)
 
 document.addEventListener("mousemove", (e)=>{mousex=e.x; mousey=e.y})
+
+function pxToInt(input) {
+    return +input.split("px")[0]
+}

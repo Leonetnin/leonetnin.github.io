@@ -1,7 +1,6 @@
-img {
+.drag {
     position: absolute;
     user-select: none;
-    -ms-user-select: ;
 }
 
 .settings {
