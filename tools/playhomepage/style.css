@@ -43,3 +43,17 @@ body {
     }
 }
 
+.infobox {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20vh;
+    width: calc(25vw - 100px);
+    height: 60vh;
+    padding: 0 10px;
+    h2 {
+        text-align: center;
+    }
+}

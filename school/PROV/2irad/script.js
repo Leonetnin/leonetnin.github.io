@@ -7,6 +7,9 @@ let board = [0,0,0,0]
 for (let i = 0; i < cells.length; i++) {
     const element = cells[i];
     element.onclick = () => {
+        if (element.innerHTML!="") {
+            return null
+        }
         turn+=1
         element.innerHTML=(turn%2==0)?circle:cross
         if (turn==3){

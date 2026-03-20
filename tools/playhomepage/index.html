@@ -13,9 +13,17 @@
         <a href="/fun/index.html">Fun stuff</a>
         <a href="/about.html">About me</a>
     </div>
-    <button class="theme" onclick="theme()">Dark mode</button>
+    <label for="theme">Theme:</label>
+    <select id="theme" onchange="window.theme()">
+        <option value="light" selected>Light</option>
+        <option value="dark">Dark</option>
+    </select>
     <div class="logo">
-        <img src="/images/playlogo.png" alt="logo">
+        <img src="/images/logos/playlight.png" alt="logo">
+    </div>
+    <div class="infobox">
+        <h2>INFO</h2>
+        <p id="vecka">Vecka 41</p>
     </div>
 </body>
 </html>

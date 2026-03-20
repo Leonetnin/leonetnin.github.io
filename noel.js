@@ -11,6 +11,10 @@ canvas.id = "_canvas";
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 document.body.appendChild(canvas);
+//remove body margin!! chnage if statement and this comment sometime
+if (true) {
+    document.body.style.margin="0"
+}
 let H = window.innerHeight;
 let W = window.innerWidth;
 let _terminalActivated = false;
