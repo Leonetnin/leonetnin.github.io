@@ -1,0 +1,27 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+canvas {
+    background-color: white;
+    image-rendering: pixelated;
+    border: 5px solid gray;
+    width: 40vw;
+}
+
+.canvas {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit {
+    color: white;
+}
