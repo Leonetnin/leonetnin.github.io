@@ -1,4 +1,5 @@
 #console {
-    height: 100%;
+    height: 400px;
+    width: 400px;
     resize: none;
 }

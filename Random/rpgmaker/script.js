@@ -1,7 +1,16 @@
+let searchparams = new URLSearchParams(window.location.search)
+if (searchparams.has("dev")){
+    const element = document.createElement("div")
+    element.id = "dev"
+    element.innerHTML="<label>Dev Console</label><textarea id='console' readonly></textarea><input id='consoleinput' onkeypress='function key(e){if(e.key==`Enter`){document.getElementById(`console`).innerText += document.getElementById(`consoleinput`).value; eval(document.getElementById(`consoleinput`).value)}}; key(event)'>"
+    document.body.appendChild(element)
+}
+
 let canvas = document.getElementById("_canvas")
+canvas.width = 240
+canvas.height = 160
 const ctx = canvas.getContext("2d")
 ctx.imageSmoothingEnabled = false
-let W = canvas.width
 
 let pressedKeys = []
 
@@ -48,16 +57,10 @@ class Spritesheet{
 }
 
 //MAIN
-let animations = {
-    walking: [1,2,3,2]
-}
-
 //Textures
 
-let map = new Image()
-map.src="textures/maps/pallettown.png"
-let player = new Spritesheet("textures/player/male.png",16,20)
-let trees = new Spritesheet("textures/tilesheets/trees.png", 16, 16, 1)
+let icon = new Image()
+icon.src="assets/textures/icon.png"
 
 //Init
 let playerPos = {x:100, y:130}
@@ -67,32 +70,25 @@ let lasttime = 0
 
 let tiles = []
 
+let t=0
+
 update = () => {
     let delta = Date.now()-lasttime
     ctx.clearRect(0,0,canvas.width,canvas.height)
 
-    let rect = canvas.getBoundingClientRect()
-    let relativemouse = {x:(mouse.x-rect.left)/3, y:(mouse.y-rect.top)/3}
-
-    // camera.x = playerPos.x-cameraoffset.x
-    // camera.y = playerPos.y-cameraoffset.y
-    // ctx.drawImage(map, -camera.x, -camera.y)
-
-    // player.draw(animations.walking[Math.floor(animationFrameFloat)], Math.floor(playerDirection), Math.round(playerPos.x-camera.x),Math.round(playerPos.y-camera.y))
-    // movement(delta)
-
-    if (mouse.down) {
-        tiles.push({col:1, row:1, x:relativemouse.x, y:relativemouse.y})
+    t+=0.1
+    if (t>=20){
+        t=0
     }
-    for (let i=0; i<tiles.length; i++) {
-        trees.draw(tiles[i].col, tiles[i].row, tiles[i].x, tiles[i].y, 32, 1)
-    }
-    trees.draw(1,1,relativemouse.x-12,relativemouse.y-12,32)
 
-    //Draw UI
-    ctx.font = "10px Verdana"
-    ctx.fillStyle="white"
-    ctx.fillText(tiles,10,10)
+    for (let i=-2; i<(canvas.width+canvas.height)/(Math.sqrt(2)*10); i++) {
+        ctx.rotate(toRadians(45))
+        //ctx.fillStyle=i%2==0?"rgb(240, 233, 217)":"rgb(216, 70, 70)"
+        ctx.fillStyle=i%2==0?"rgb(240, 233, 217)":"rgb(216, 70, 70)"
+        ctx.fillRect(i*10+t,i*-10-10-t,10,canvas.height*Math.sqrt(2)+10)
+        ctx.resetTransform()
+    }
+    ctx.drawImage(icon, Math.round((canvas.width-icon.width)/2), Math.round((canvas.height-icon.height)/2))
 
     lasttime = Date.now()
     mouse.click=false
@@ -108,62 +104,6 @@ window.onkeydown = (e) => {
 
 window.onkeyup = (e) => {
     pressedKeys.splice(pressedKeys.indexOf(e.key),1)
-}
-
-//Speed in px/s
-const speed = 60
-let moving = false
-let animationFrameFloat = 1
-
-let playerDirection = 1
-
-function movement(delta) {
-    const boost = (pressedKeys.includes(" ")?2:1)
-    let moves = [pressedKeys.indexOf("w"), pressedKeys.indexOf("a"), pressedKeys.indexOf("s"), pressedKeys.indexOf("d")]
-    switch (pressedKeys[(Math.max(...moves))]) {
-        case "w":
-            playerPos.y-=speed/1000*delta*boost
-            playerDirection = 2
-            break
-        case "a":
-            playerPos.x-=speed/1000*delta*boost
-            playerDirection = 3
-            break
-        case "s":
-            playerPos.y+=speed/1000*delta*boost
-            playerDirection = 1
-            break
-        case "d":
-            playerPos.x+=speed/1000*delta*boost
-            playerDirection = 4
-            break
-        default:
-            animationFrameFloat=1
-            return null
-    }
-    collide()
-    animationFrameFloat=(animationFrameFloat+speed/8000*delta*boost)%4
-}
-// for (let i=0; i<canvas.width; i++) {
-//     for (let j=0; j<canvas.height; j++) {
-//         ctx.fillStyle=(i+j)%2==1?"black":"white"
-//         ctx.fillRect(i,j,1,1)
-//     }
-// }
-
-function collide() {
-    // if (playerPos.x<15){
-    //     playerPos.x=15
-    // }
-    // if (playerPos.x>map.width-15){
-    //     playerPos.x=map.width-15
-    // }
-    // if (playerPos.y<0){
-    //     playerPos.y=0
-    // }
-    // if (playerPos.y>map.height-19){
-    //     playerPos.y=map.height-19
-    // }
 }
 
 document.addEventListener("mousedown", _mouse)
@@ -190,4 +130,14 @@ function _mouse(e) {
             mouse.y = e.y
             break;
     }
+}
+
+//Extra funcs
+
+function toRadians(degrees) {
+    return degrees * Math.PI/180
+}
+
+function toDegrees(radians) {
+    return radians / (Math.PI/180)
 }
