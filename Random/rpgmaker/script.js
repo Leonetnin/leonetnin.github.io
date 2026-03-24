@@ -71,6 +71,7 @@ let lasttime = 0
 let tiles = []
 
 let t=0
+let g=0
 
 update = () => {
     let delta = Date.now()-lasttime
@@ -80,6 +81,7 @@ update = () => {
     if (t>=20){
         t=0
     }
+    g+=0.02
 
     for (let i=-2; i<(canvas.width+canvas.height)/(Math.sqrt(2)*10); i++) {
         ctx.rotate(toRadians(45))
@@ -88,7 +90,11 @@ update = () => {
         ctx.fillRect(i*10+t,i*-10-10-t,10,canvas.height*Math.sqrt(2)+10)
         ctx.resetTransform()
     }
-    ctx.drawImage(icon, Math.round((canvas.width-icon.width)/2), Math.round((canvas.height-icon.height)/2))
+
+    let scalex = 1-g%2
+    ctx.scale(scalex,1)
+    ctx.drawImage(icon, Math.round((canvas.width-(icon.width*scalex))/2)/scalex, Math.round((canvas.height-icon.height)/2),icon.width,icon.height)
+    ctx.resetTransform()
 
     lasttime = Date.now()
     mouse.click=false
