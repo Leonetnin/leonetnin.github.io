@@ -1,0 +1,12 @@
+header h1, header p {
+    margin: 0px;
+}
+
+
+li {
+    margin: 5px;
+}
+
+#hand ~ p, #hand ~ ul {
+    margin-left: 20px;
+}

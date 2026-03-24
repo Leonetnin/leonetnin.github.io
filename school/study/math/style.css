@@ -5,7 +5,6 @@ input[type="checkbox"] {
 label {
     display: inline-block;
     user-select: none;
-    background-color: blue;
     border: 5px solid;
     padding: 10px;
 }
@@ -25,19 +24,19 @@ label:has(input:checked)::before {
 
 ul {
     z-index: -1;
-    background-color: blue;
     border: 5px solid;
-    margin-top: 10px;
+    margin-top: -4px;
     display: block;
     transform-origin: top center;
     transform: translateY(-100%);
     transition-duration: 500ms;
     clip-path: inset(100% 0 0 0);
+    max-height: 0px;
 }
 
 label:has(input:checked) + ul {
+    max-height: max-content;
     transform: translateY(0px);
     display: block;
     clip-path: inset(0 0 0 0);
-
 }

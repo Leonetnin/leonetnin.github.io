@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(22, 21, 26);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    background-color: rgb(44, 55, 81);
+    color: white;
+}
+
+textarea{
+    background-color: rgb(44, 55, 81);
+    color: white;
+    resize:none;
+    height:calc(100vh - 110px);
+    width: 100%;
+    border-style: none;
+}
+
+.toolbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 0;
+    }
+    button {
+        border: 0px;
+        color: white;
+        background-color: rgb(29, 37, 55);
+    }
+}
+
+#submit{
+    position: absolute;
+    bottom: 0px;
+}
