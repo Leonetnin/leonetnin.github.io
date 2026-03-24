@@ -1,28 +1,19 @@
-html, body{
-    background-color: rgb(56, 129, 212);
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
-    overflow:hidden;
-}
-canvas{
-    position: relative;
-    z-index: 1;
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
 }
 
-input {
-    z-index: 2;
-    position: fixed;
-    bottom: 0px;
-    right: 0;
-    left: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
-    outline: none;
+img {
+    height: 100vh;
 }
-button {
-    z-index: 2;
-    border-style: none;
-    position: fixed;
-    bottom: 1px;
-    right: 0;
+
+#pascals {
+    position: absolute;
+    font-family: Calibri;
+    font-size: 25px;
+    background-color: white;
+    padding: 0px 5px;
 }

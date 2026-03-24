@@ -54,15 +54,8 @@ let animations = {
 
 //Textures
 
-let maps = {
-    "home":"textures/insides/playerhome.png",
-    "room":"textures/insides/playerroom.png",
-    "oaklab":"textures/insides/oaklab.png",
-    "pallet":"textures/maps/pallettown.png"
-}
-
 let map = new Image()
-map.src=maps.oaklab
+map.src="textures/maps/pallettown.png"
 let player = new Spritesheet("textures/player/male.png",16,20)
 let trees = new Spritesheet("textures/tilesheets/trees.png", 16, 16, 1)
 
@@ -81,12 +74,20 @@ update = () => {
     let rect = canvas.getBoundingClientRect()
     let relativemouse = {x:(mouse.x-rect.left)/3, y:(mouse.y-rect.top)/3}
 
-    camera.x = playerPos.x-cameraoffset.x
-    camera.y = playerPos.y-cameraoffset.y
-    ctx.drawImage(map, -camera.x, -camera.y)
+    // camera.x = playerPos.x-cameraoffset.x
+    // camera.y = playerPos.y-cameraoffset.y
+    // ctx.drawImage(map, -camera.x, -camera.y)
 
-    player.draw(animations.walking[Math.floor(animationFrameFloat)], Math.floor(playerDirection), Math.round(playerPos.x-camera.x),Math.round(playerPos.y-camera.y))
-    movement(delta)
+    // player.draw(animations.walking[Math.floor(animationFrameFloat)], Math.floor(playerDirection), Math.round(playerPos.x-camera.x),Math.round(playerPos.y-camera.y))
+    // movement(delta)
+
+    if (mouse.down) {
+        tiles.push({col:1, row:1, x:relativemouse.x, y:relativemouse.y})
+    }
+    for (let i=0; i<tiles.length; i++) {
+        trees.draw(tiles[i].col, tiles[i].row, tiles[i].x, tiles[i].y, 32, 1)
+    }
+    trees.draw(1,1,relativemouse.x-12,relativemouse.y-12,32)
 
     //Draw UI
     ctx.font = "10px Verdana"
