@@ -212,7 +212,7 @@ function button(userData=buttonStandardStyle) {
             data.bgColor=data.focusColor
         }
     }
-    rectangle(data.x,data.y,data.width,data.height,data.bgColor,0,false,data.roundness)
+    rectangle(data.x,data.y,data.width,data.height,data.bgColor,undefined,null,0,false,data.roundness)
     text(data.text,data.x+data.width/2,data.y+data.height/2+data.fontSize/2-4,data.fontSize,data.textColor,data.font,data.textAlign)
 }
 // if (image){
