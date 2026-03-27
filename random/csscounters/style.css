@@ -1,0 +1,14 @@
+html {
+}
+
+body {
+    background-color: white;
+}
+
+html:active {
+    counter-set: clicks 1;
+}
+
+body::before {
+    content: "Hej: " counter(clicks);
+}

@@ -1,3 +1,5 @@
 {
-    "resolution":"240x160"
+    "resolution": "240x160",
+    "useintro":true,
+    "edit": true
 }

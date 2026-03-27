@@ -47,6 +47,7 @@ update = () => {
 }
 
 
+
 function handleInput(button){
     switch (button){
         case "⌫":
@@ -115,6 +116,11 @@ function handleInput(button){
         case "⁺/₋":
             input=(input[0]=="-")?(input.slice(1,input.length)):("-"+input)
             break;
+        case ".":
+            if(!input.includes(".")){
+                input+="."
+            }
+            break;
         default:
             if (numbers.includes(button)){
                 if (justLatest){
@@ -131,7 +137,7 @@ function handleInput(button){
                     latestInput=input+button
                     justLatest=true
                 } else if (latestInput[latestInput.length-1]!="="){
-                    if (["÷","×","−","+",].includes(latestInput[latestInput.length-1])){
+                    if (["÷","×","−","+"].includes(latestInput[latestInput.length-1])){
                         latestInput=latestInput.slice(0,latestInput.length-1)
                     }else {
                         calculateInput()

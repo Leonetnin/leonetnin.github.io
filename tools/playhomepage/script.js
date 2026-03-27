@@ -18,5 +18,5 @@ function theme() {
 
 let date = new Date()
 let firstJan = new Date(date.getFullYear(), 0, 1)
-
-document.getElementById("vecka").innerText = "Vecka "+ (Math.floor((firstJan.getDay()+(date-firstJan)/86000000)/7)+1)
+let week = Math.floor((firstJan.getDay()-1+(date-firstJan)/86000000)/7)+1
+document.getElementById("vecka").innerText = "Vecka "+ week

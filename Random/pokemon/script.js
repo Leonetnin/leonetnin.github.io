@@ -7,25 +7,6 @@ let pressedKeys = []
 
 let cameraoffset = {x:canvas.width/2-8, y:canvas.height/2-8}
 
-// class Spritesheet{
-//     constructor(texture, columns, rows){
-//         this.texture = new Image()
-//         this.texture.src=texture
-//         this.columns=columns
-//         this.rows=rows
-//     }
-//     draw(column,row,x,y,scale,direction){
-//         let spriteWidth=this.texture.width/this.columns
-//         let spriteHeight=this.texture.height/this.rows
-//         ctx.drawImage(this.texture, spriteWidth*(column-1), spriteHeight*(row-1), spriteWidth, spriteHeight, x, y, spriteWidth, spriteHeight)
-//         ctx.resetTransform()
-//     }
-
-//     getDimensions(){
-//         return {"width":this.texture.width/this.columns,"height":this.texture.height/this.rows}
-//     }
-// }
-
 class Spritesheet{
     constructor(texture, tilewidth, tileheight=tilewidth, marginx=0, marginy=marginx){
         this.texture = new Image()
@@ -143,27 +124,7 @@ function movement(delta) {
     collide()
     animationFrameFloat=(animationFrameFloat+speed/8000*delta*boost)%4
 }
-// for (let i=0; i<canvas.width; i++) {
-//     for (let j=0; j<canvas.height; j++) {
-//         ctx.fillStyle=(i+j)%2==1?"black":"white"
-//         ctx.fillRect(i,j,1,1)
-//     }
-// }
 
-function collide() {
-    // if (playerPos.x<15){
-    //     playerPos.x=15
-    // }
-    // if (playerPos.x>map.width-15){
-    //     playerPos.x=map.width-15
-    // }
-    // if (playerPos.y<0){
-    //     playerPos.y=0
-    // }
-    // if (playerPos.y>map.height-19){
-    //     playerPos.y=map.height-19
-    // }
-}
 
 document.addEventListener("mousedown", _mouse)
 document.addEventListener("mousemove", _mouse)
