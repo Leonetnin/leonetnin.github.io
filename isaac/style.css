@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+
+div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@property --test {
+    syntax: '<length>';
+    initial-value: 0px;
+    inherits: false;
+}
+
+
+body {
+    background: repeating-radial-gradient(
+        rgb(105, 11, 155) calc(0px + var(--test)) calc(20px + var(--test)),
+        rgb(215, 123, 227) calc(20px + var(--test)) calc(40px + var(--test))
+        );
+    animation: move 1.5s infinite linear;
+    background-size: 100vw 100vw;
+    background-position: 50%;
+}
+@keyframes move {
+    0% {
+        --test: 0px;
+    }
+    100%{
+        --test: 40px;
+    }
+}
+
+button {
+    background-color: rgb(253, 45, 177);
+    border-color: rgb(253, 45, 177);
+    padding: 5px;
+    font: 20px comic sans ms;
+}
+button:hover {
+    background-color: rgb(243, 80, 183);
+}
+
+button:disabled {
+    background-color: rgb(165, 143, 157);
+    color: white;
+    border-color: rgb(165, 143, 157);
+    z-index: -2;
+}
+button:disabled:hover {
+    background-color: rgb(165, 143, 157);
+    color: white;
+    border-color: rgb(165, 143, 157);
+}
+video {
+    opacity: 0%;
+    height: 75%;
+    position: absolute;
+    z-index: -1;
+}
+
+.show {
+    animation: shows 3s linear forwards;
+}
+
+@keyframes shows {
+    10% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
