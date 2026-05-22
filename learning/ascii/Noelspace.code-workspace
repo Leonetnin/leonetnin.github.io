@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../../Noelstuff/NoelSkoltilities"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "leonetnin.github.io"
+	}
+}

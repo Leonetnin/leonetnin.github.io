@@ -23,7 +23,7 @@ function getdata() {
 }
 getdata()
 
-
+fetch("bla.txt").then(response => {return response})
 const rows = document.getElementsByTagName("td")
 function loaded() {
     const lag = Object.keys(shldata)

@@ -1,0 +1,26 @@
+@property --hej {
+  syntax: "<length>";
+  initial-value: 0px;
+  inherits: false;
+}
+
+body {
+  counter-reset: name;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  --hej: 10px;
+  &::after {
+    font-family: Impact;
+    font-size: 40px;
+    content: counter(name);
+    position: absolute;
+  }
+}
+body:active {
+  &::after {
+    counter-increment: name;
+  }
+}

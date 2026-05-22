@@ -1,0 +1,111 @@
+:root {
+    --schemagrey: rgb(205, 213, 218);
+}
+
+table {
+    margin: 0;
+    padding: -1px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px black solid;
+    margin: 0;
+    padding: 3px 20px;
+    font-weight: normal;
+    font-family: arial;
+    font-size: 15px;
+    
+}
+
+td {
+    border: 1px black solid;
+    margin: 0;
+    padding: 3px 20px;
+    font-weight: normal;
+    font-family: arial;
+    font-size: 15px;
+    
+}
+
+td:nth-child(1), td:nth-last-child(1){
+    padding: 0;
+    p {
+        position: relative;
+        text-align: center;
+        margin: 0;
+        padding: 0px 5px 20px 5px;
+        font-size: 11px;
+    }
+    p:not(:last-child){
+        border-bottom: 1px solid;
+    }
+    p::after {
+        content: "-";
+        top: calc(50% - 6.5px);
+        position: absolute;
+    }
+}
+
+td:nth-child(1) p::after {
+    right: -1px;
+}
+
+td div:hover {
+    cursor: pointer;
+}
+
+td:nth-last-child(1) p::after {
+    left: -1px;
+}
+
+td:not(:nth-child(1)):not(:nth-last-child(1)) {
+    background-color: var(--schemagrey);
+    width: 150px;
+    padding: 0;
+    height: 300px;
+    margin: 0;
+    position: relative;
+    justify-content: center;
+    div {
+        left: 0px;
+        border-collapse: collapse;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+        height: 100px;
+        p:not(:nth-of-type(2)):not(:nth-of-type(3)){
+            margin: 0;
+            background-color: var(--schemagrey);
+            position: absolute;
+            font-size: 9px;
+        }
+        p:first-of-type {
+            top: -6px;
+            left: 0;
+        }
+        p:last-of-type {
+            bottom: -6px;
+            right: 0;
+        }
+        p:nth-of-type(2),p:nth-of-type(3){
+            text-wrap: wrap;
+            text-align: left;
+            margin: 3px;
+        }
+        
+    }
+}
+
+p {
+    user-select: none;
+}
+
+td {
+    height: 300px;
+}
