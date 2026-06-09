@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loggbok</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Loggbok - Noel Åström TE24a</h1>
+        <p>Jag har fått i uppgift att sätta upp ett system som låter en/flera användare styra och skicka skrivararbeten
+            till en 3D-skrivare med hjälpen av en Raspberry Pi 4 model b. 3D-skrivaren är en Prusa i3 mk3. Jag har även
+            fått tillgång till en router (ASUS RT-AC51U) som ska göra det möjligt att trådlöst kommunicera med RPIn via
+            WiFi, routern har inte tillgång till Internet då jag inte har en internet kabel och det inte heller är
+            nödvändigt för att fylla dess funktion. Min plan är att sätta upp ett web-interface på port 80 (Standard
+            porten för att hosta webbsidor) i RPIn för att låta användaren lätt interagera med 3D-skrivaren.</p>
+        <br>
+        <p>Jag vill också lägga vikt på faktumet att jag inte använt/använder några AI tjänster under genomföringen av
+            denna uppgift (och utanför för den delen). Att tänka det hade varit lite förnedrande med tanke på den tid
+            jag spenderat åt att göra det här, samt den mentala kapaciteten bränd på att skriva någonting läsbart på
+            svenska (ett svagt område för mig, just artikulation i formen av text utan ett multum av grammatiska fel
+            alltså. Förhoppningsvis så spelar grammatiken här inte lika stor roll som på svenskan).</p>
+        <h2>Steg 1: att flasha ett operativ system på RPIn</h2>
+        <p>Det första jag behövde göra före jag kunde flasha den var att bestämma ett passande OS för uppgiften.
+            Eftersom användare senare inte behöver direkt interagera med RPIn utan bara via det web-interface som jag
+            satt upp, så kommer jag inte behöva ett fullt OS med ett desktop environment, då det dessutom bara gjort
+            hela processen långsammare. Istället fungerar ett headless OS som bara har en kommandotolk att använda.
+            Raspberry Pi har ett operativ system som heter "Raspberry Pi OS lite", vilket är en port av Debian Trixie
+            (version 13 av Debian, den senaste), vilket är en linux distrobution anpassad till RPIs. Det hjälper att jag
+            redan använt just det operativ systemet förut på en personlig RPI. Jag tog hem RPIn för att flasha den där
+            då de datorer vi har på skolan inte har administrativ åtkomst. Jag använde "Raspberry Pi Imager" för att
+            flasha mitt SD-kort som jag satte in i datorn, vilket underlättade det mycket. Programmet hjälper även med
+            att skapa en användare och möjligheten att sätta upp RPI connect redan där; jag behövde däremot inte använda
+            RPI connect då jag skulle ansluta till RPIn via SSH (Secure Shell Protocol, ett kryptografiskt
+            nätverksprotokoll som oftast används för fjärrinloggningar och command-line execution). RPI Imager hjälpte
+            med att sätta upp SSH (port 22) på RPIn.</p>
+        <br>
+        <p>Det har här jag stötte på mitt första problem: lösenordet för SSH funkade inte, verkade det som. Jag
+            misstänkte, felaktigt, att det var fel på lösenordet och att jag skulle behöva starta om (det går att
+            resetta lösen men eftersom det var en oändrad installation tänkte jag att det var lika bra att börja om och
+            få det rätt), efter flera installationer så kom jag ihåg att man behövde sätta användaren som prefix på
+            IP-adressen när man loggar in via SSH, även fast det bara finns en användare. Det var ett simpelt felsteg
+            som låg i att jag mindes hur man gjorde det fel.</p>
+        <br>
+        <p>Här är detaljerna på hur jag gjorde baserat på planen nämnd ovan: Jag behövde ett microSD kort, en dator som
+            kan läsa microSD kort (Många datorer/laptops har ingen sådan port, i det fallet behöver du även en USB
+            SD-kort läsare som du kopplar till datorn, du kommer oftast även behöva en microSD-SD adapter). Jag behöver
+            även ha tillgång till en användare med administrativ åtkomst (eftersom programmet kommer rensa och skriva
+            ett OS direkt till en lagringsvolym). Jag började med att installera "Raspberry Pi Imager" (<a
+                target="_blank" href="https://www.raspberrypi.com/software/">länk till nedladdning</a>). Sedan startade
+            jag den .exe som jag laddade ned och valde språk (för imagern), sen accepterade jag deras terms & conditions
+            (annars startar inte programmet). Jag klickade sedan "continue" och "finish", då tog jag mig till imagern.
+            På skärmen som kommer fram kunde jag nu välja vilken modell som jag använde (Rpi4 model b i mitt fall), om
+            du inte vet vilken modell du har så brukar det stå på RPIns bräda. Sedan klickade jag "next". nästa skärm
+            frågar efter vilken OS, jag valde "Raspberry Pi OS (other)", och sen "Raspberry Pi OS lite 64bit", det går
+            att välja 32bit, speciellt om den enhet man använder inte är en 64bits processor, men RPI4 model b har en
+            sådan. 64bit är snabbare än 32bit och är heller inte begränsad till 4GB RAM (2^32 bytes är ungefär 4GB, 2^64
+            är 16 exobyte, alltså jätte mycket, vilket är det en 64bits processor teoretiskt skulle kunna hantera). Jag
+            klickade "next"; nu gäller det att man sätter in sitt microSD kort så att datorn kan läsa (och ändra!!) den.
+            Min pc (hemma) hade som tur är ett SD-slot, så jag använde bara en adapter och stoppade in den där. När mitt
+            SD-kort då visades bland alternativen på "Storage" sektionen i Imagern, så valde jag den och klickade
+            "next". Nu fick jag välja ett hostname, det är detta som kommer identifiera PIen på nätverket, jag tog
+            "teprinter". Sen klickade jag "next" och valde min plats för tidszon och tangentbordslayout. Jag tog
+            "Stockholm", "Sweden" och "sv". Sen klickade jag "next", sen valde jag ett passande användarnamn och
+            lösenord ("balder" och "balder" lol). Detta rekommenderar jag att man antecknar det så att man inte glömmer,
+            speciellt eftersom jag är riktigt bra på att glömma saker; det är detta jag senare kommer använda för att
+            logga in på RPIn. "next". Nu är det WiFi inställningar, men här så bör man inte sätta upp routern förän
+            senare då det inte kommer ha Internet åtkomst och jag kommer behöva installera saker via Internet. Jag skrev
+            in SSIDt och lösenordet till mitt hemma-nätverk, vilket blev ett litet problem, men det kommer jag till
+            senare. next, sen på SSH sektionen behöll jag standard inställningarna: alltså att slå igång SSH med
+            lösenords authentication. Next, next. Jag skippade alltså RPI connect helt och hållet, då det inte behövs
+            eftersom jag ändå har en headless linux installation. Sedan klickade jag på "Write" och väntade tills
+            installationen var färdig. Jag matade då ut SD-kortet (på rätt sätt, genom att först klicka på mata ut), tog
+            ut det, och satte in det i RPIn. Det var här som jag stötte på mitt allra första problem: jag kunde inte
+            logga in via SSH, som jag beskriv i en tidigare paragraf så gick det helt enkelt inte att logga in då jag
+            försökte göra det genom "ssh &lt;RPIns IP-adress&gt;" som inte gick då jag även behövde specifiera
+            användare. Detta är den korrekta syntaxen: "ssh &lt;användarnamn&gt;@&lt;RPIns IP-adress&gt;". Då var
+            flashandet av ett OS på en RPI4 gjort, nu vidare till att konfiguera routern.</p>
+
+        <h2>Om Raspberry Pi 4 model b</h2>
+        <p>Raspberry Pi 4 model b är en single-board computer (Förkortas som SBC, enkortsdator på svenska) i Raspberry
+            Pi serien. Som namnet (SBC) föreslår så är en Rpi4 en dator med processor, minne, I/O funktioner, grafikkort
+            och RAM som allt ligger på ett kretskort. Jag vet att RPI Foundation ursprungligen skapade sina SBC för att
+            de skulle vara till hjälp i skolan, för utbildningssyften, men blev snabbt känt bland andra målgrupper då
+            det var en billig, simpel och breda användningsområde. Idag används fortfarande RPIs i skolan (Duh, jag
+            använder en just nu för denna uppgift) men även bland hobbyister som mig själv för andra syften. Jag
+            använder t.ex min Rpi5 för att hosta minecraft servrar, lokala webbsidor och andra småprojekt (Håller just
+            nu på med att fixa så att den ska kunna hantera saker som en kalender med aktiviteter som jag ska kunna
+            lägga in från telefonen, väderprognos, osv. på en skärm som ska sitta i vardagsrummet, men det är lite
+            sidospår hehe). Det är lätta att anpassa sin RPI efter nästan alla (lagomt stora) syften man kan tänka sig,
+            speciellt eftersom det finns så mycket dokumentation och så många personer online som redan gått i samma
+            spår och redogjort verktyg/tutorials/inlägg om det. Hur mycket RAM en PI har varierar och bestäms av kunden
+            vid köp (Upp till 8GB för Pi4 men upp till 16GB för Pi5, dock lite overkill), den Pi jag använder till denna
+            uppgift har 4GB RAM vilket bör räcka gott till att hosta en klipper server med mera. </p>
+        <h2>Steg 2: Sätta upp routern</h2>
+        <p>Jag fick problem med routern direkt då tidigare elever redan hade satt lösenord på dem som inte var
+            nedskrivna någonstans, det
+            ska gå att nollställa dem med reset knappen på baksidan, men på den första routern så vägrade (Jag
+            misstänker att det hade att göra med att knappen var trasig då den var lite intryckt jämfört med andra av
+            samma modell) den
+            nollställas även när jag använde den. Axel (du) gav då mig en annan router som också hade ett lösenord som
+            inte var nedskriven, men den nya kunde återställas som vanligt direkt, alltså via att hålla inne reset
+            knappen i ungefär 10sek, sedan starta om den. Jag satte ett (temporärt) lösenord
+            för routern och ändrade dens SSID (Alltså nätverkets "namn") till "noelastrom.se" (också temporärt). I mitt
+            fall så var det enda jag behövde till routern en 12 volts AC adapter för att försörja den med el vilket jag
+            hade, ingen internet-kabel behövdes (eller hades) eftersom målet är att låta en användare samtala med RPIn
+            vilket inte kräver internet, utan kan skötas genom routing (Alltså att välja en path för nätverkstrafik i
+            ett nätverk eller mellan nätverk, men bara i ett i mitt fall). Ett
+            stort problem med att routern inte hade någon Internet-kabel var att den "klagade" väldigt mycket i
+            formen av att skicka mig, och alla som potentiellt hade försökt använda den, till WebGUIn för routerns
+            inställningar varje gång man anslöt till den, samt när
+            man försökte nå en sida i en browser, även fast den hostas lokalkt på browsern. Det tog mig ett tag att
+            hitta
+            lösningen, då min första teori var att problemet låg på klientens sida, eftersom allt verkade funka annars,
+            vilket jag efter tag insåg inte stämde. Jag hittade tillslut, med hjälpen av Reddit (ett forum som är extra
+            bra för hyperspecifika nätverksproblem, därför det alltid finns en person som haft samma problem 14 år
+            tidigare) en inställning som hette "Enable WAN down
+            browser redirect" i administrations sektionen av routerns inställningar. När jag ställde frågan på Reddit så
+            föreslog många användare att jag istället bör använda en switch, då de ansåg att routrar inte är tänkta att
+            användas utan Internet. Men jag tänkte att eftersom det enda problemet var just att den klagade på det, och
+            inte funkionaliteten, så borde en router passa minst lika bra. Vid närmare examination så hade en router
+            ändå varit ett bättre val; jag hade ju ändå behövt funktioner som DHCP och WiFi, jag hade kunnat använt min
+            Pi som en DHCP server också, men återigen, så hade det inte varit nödvändigt då en router redan fyller alla
+            mina krav.</p>
+        <br>
+        <p>RPIn kopplade jag till routern via ethernet kabel, det spelar dessutom inte riktigt roll för mig vad den får
+            för tilldelad IP-adress, eftersom den har sitt hostname "teprinter" som kan användas som substitut för
+            IP-adressen. Det betyder att jag inte behöver ge den en statisk IP-adress eller göra något extra, varför
+            lösa ett problem som redan var löst från första början? Det enda viktiga hade varit att se till så att
+            användarna och RPIn ligger på samma subnät, vilket de gör by default (subnätsmasken 255.255.255.0 under
+            192.168.1.X). Yttligare konfiguration krävdes egentligen inte, då en stor del av setupen är just
+            Internetuppkopplingen (som jag inte behöver syssla med här), men en sak som kan
+            bli ett problem är WiFi räckvidden, vilket inte var säsrkilt stort i skolan, det hade gått att lösa med WiFi
+            extenders men jag hade inte tillgång till några sådana, så jag får nöja mig, för nu, med en kort räckvidd.
+            Om teknik får tag på några sådana så installerar jag gärna några, då det huvudsakliga fokuset i denna
+            uppgift var att låta en användare ansluta sig till nätverket och skicka skrivaruppdrag utan att behöva gå
+            dit, vilket man nu ändå behöver göra (man behöver iallafall gå nära nog) för att nå WiFit.</p>
+        <h2>Steg 3: Besluta mig för en metod</h2>
+        <p>Vad är det för metod jag pratar om? Jo, det finns ett flertal lösningar för att styra en 3D-skrivare med en
+            RPI, och jag vill ha den bästa. Jag sökte efter vilka alternativ som fanns och det var dessa som jag
+            hittade:</p>
+        <ul>
+            <li>Prusa link - den officiella lösningen av Prusa.</li>
+            <li>Klipper - firmware för att kontrollera 3d-skrivare (kompatibelt med OctoPrint)</li>
+            <li>3DPrinterOS - Cloud service som kostar</li>
+            <li>OctoPrint - Open source rpi 3D printer ware som bygger på Klipper</li>
+            <li>AstroPrint - Cloud service, betalat, AI i fokus (Det ogillar jag)</li>
+            <li>NanoDLP - Likt klipper, inte lika bra performance (Har inte samma fokus på det/funktioner som är
+                anpassningsbara)</li>
+            <li>Printrun - python baserad 3dprint host (sakta)</li>
+            <li>Repetier - AI baserat, förlorade redan där.</li>
+            <li>SimplyPrint - Kostar också</li>
+        </ul>
+        <p>De enda valen som verkar vara bra är Klipper och Prusa link, då resterande antingen kostar, är
+            sakta/inkompatibla eller bygger på AI, vilket jag inte kan stå för att använda. Jag läste igenom all <a
+                href="prusalinkdocs.pdf" target="_blank">PrusaLink dokumentation</a> och bestämde mig till början för
+            att använda det. Mitt resonemang där var att PrusaLink borde vara bäst anpassat efter skrivaren då det är en
+            Prusa, men jag insåg att det inte var särskilt lätt/byggt efter att anpassas lätt. Jag är en sucker för
+            anpassning och att göra mjukvara personligt så jag tittade istället på vad Klipper tillåter istället, det
+            var även det som 3D-skrivar commmunityn rekommenderade (på snitt). Klipper är däremot inte allt jag behöver,
+            utan det är bara det som tillåter RPIn att skicka kommandon via kommandotolk till skrivaren. För att även ha
+            ett web-interface så krävs yttligare installationer: Fluidd är en web front-end kompatibel med Klipper men
+            som kräver Moonraker för att kommunicera med klipper. Moonraker är en API som länkar Klipper och Fluidd.
+            Fluidd är väldigt lätt att anpassa efter behov och låter även användaren få tillgång till en (något
+            begränsad version) kommandotolk som körs på RPIn. </p>
+        <h2>Steg 4: Installera Klipper</h2>
+        <p>För att påbörja installation av Klipper (med company) så behövde jag nu ansluta till min RPI via SSH, men
+            eftersom jag nu var på skolan, och inte hemma, så kunde jag inte logga in på RPIn då den inte var ansluten
+            till ett nätverk. Att använda nätverket som jag satte upp i steg 2 var inte heller ett bra alternativ, då
+            jag behövde internet uppkoppling till RPIn för att kunna genomföra installationer. Jag kunde inte heller
+            använda SKOLAX (alltå genom att använda ett ethernet uttag som finns här och där på skolan), då jag inte
+            hade kontrol över vilken IP-adress som tilldelades till RPIn, och därför inte kunde kommunicera med den. Jag
+            insåg då direkt att jag bara kunde internetdela från min mobil, men det fanns en asterisk till det: för att
+            RPIn ska kunna ansluta till den så behövrer jag redan kunna köra kommandon i den, vilket kräver SSH, som
+            kräver delat nätverk. Ja, jag hade kunnat ansluta till en skärm men jag satt uppe i 3D-skrivar rummet och
+            jag visste att tillgången till mikro-HDMI kablar var glest vid den tiden (hög demand bland klasskompisar som
+            ville sätta upp connect på sina), det hade dessutom bara varit ett mycket tråkigare val. Istället så mindes
+            jag något jag lärde mig i högstadiet, ett "trick" som hackare kan uttnytja för att stjäla data från dig
+            genom att adoptera samma SSID och lösenord som ett nätverk du tidigare anslutit dig till. Din dator, mobil
+            eller i mitt fall: en raspberry pi gör ingen skillnad på de två nätverken, även fast de är olika. Jag tog
+            bara den principen och bytte min internetdelnings SSID till samma som hemma, likadant för lösenordet. PIen
+            anslöt, till min förvåning (även fast det var det förväntade resultatet) direkt utan något som helst
+            problem. Det var nästan lite oroväckande hur lätt det var, och att vem som helst hade kunnat gjort samma sak
+            (Det håller inte lika stor fara idag när HTTPS blivit allt mer vanligt/standarden och trafik kan avläsas
+            utan att avkodas, men med det sagt så kan det fortfarande användas på olovliga/oetiska sätt).</p>
+        <br>
+        <p>Nu när jag kunde SSH:a mig in i RPIn så var det dags att installera Klipper. Det finns ett väldigt bra
+            verktyg för detta som heter KIAUH (Klipper Installation And Update Helper) utvecklat av Dominik Willner (<a
+                href="github.com/dw-0/kiauh">Länk till GitHub repot</a>). Det är anpassat till linux baserade
+            operativsystem och skapat med Raspberry Pi i fokus. Jämfört med andra installationer jag behövt gå igenom
+            för t.ex nyare versioner av Java (21+) som inte längre stöds (natively) av RpiOS, som tagit mig några timmar
+            att fixa och laga; så var det här väldigt väldigt lätt. Allt jag behövde göra var att först installera Git
+            till min RPI med apt (Inbyggt i Debian, ett kommandotolksverktyg för att hantera installation, uppdatering
+            och radering av .deb paket) vilket görs med detta kommando:</p>
+        <code>sudo apt-get update && sudo apt-get install git -y</code>
+        <p>"sudo" som prefix till ett kommando ger administrativ åtkomst och kräver ibland att du skriver ditt lösenord.
+            apt-get är som apt, förutom att apt var designat efter användarens upplevelse och släpptes mycket senare.
+            Skillnaden är mest bara att apt ger användaren mer info som: progress bar för installationen, färgkodat och
+            andra saker mest för att hitta paket som kan uppgraderas. -y flaggan används för att skippa confirmation
+            prompts som konstant frågar Y/N på det du vill installera. att vi kör två apt-get kommandon sammansatta med
+            && är för att update även behövs utifall den senaste paketlistan inte stämmer överens med den lokala, för
+            att undvika att "git" inte hittas. Sedan körde jag, för att installera KIAUH:</p>
+        <code>cd ~ && git clone https://github.com/dw-0/kiauh.git</code>
+        <p>som klonar (git clone [LÄNK]) KIAUH till mitt hem-directory (cd ~). Det var nu redan installerat och kunde
+            startas via:</p>
+        <code>cd ~ && ./kiauh/kiauh.sh</code>
+        <p>Den första delen av kommandot är inte nödvändigt om du redan befinner dig i ditt hem-directory, så jag
+            använde inte det, men jag tänkte att det vore bäst att skriva en generell lösning som tillåter att man
+            kanske är i en annan mapp för nogrannhetens skull. Därefter, i KIAUH valde jag "install" (Navigationen är
+            ganska self-explanatory, man skriver bara in den karaktär som motsvarar det alternativ man vill ha, och
+            klickar enter), och sedan Klipper. Den frågar hur många instanser av klipper som ska installeras (vilket gör
+            denna lösning bäst, då PrusaLink inte stöttar något sådant), som jag svarade med 1, för nu iallafall. Om
+            lärarna tycker att det blir bra så hade det gått att expandera till ungefär 4 instanser av klipper (Det är
+            det som 4GB RAM räcker till, uppskattar jag baserat på den RAM användning som jag just nu noterat). Den
+            frågade sedan om jag ville ha ett exempel på en printer.cfg fil, vilket jag svarade ja på (Min första gång
+            som jag jobbat med detta program, och jag lärde mig genom användning + dokumentation, <a
+                href="https://www.klipper3d.org/Installation.html">länk till dokumentationen här</a>), även fast jag
+            ändrade typ allt i den senare. När Klipper senare installerats så fortsatte jag med Moonraker, där processen
+            var likadan (minus antalet instanser) och till sist Fluidd som jag uppgav skulle hostas på default porten
+            (port 80). Det var alla paket som jag behövde, men jag vill ändp poängtera att det finns även support för
+            Touchscreen GUI (KlipperScreen) och ett paket som hanterar webcam stream för att monitorera sin print från
+            avstånd (Crowsnest).</p>
+        <br>
+        <p>Man behöver också flasha 3D-skrivarens kretskort med Klipper firmware (oroa dig inte, det är såklart
+            reversible utifall man inte längre vill använda klipper). Det kan man också göra med KIAUH, men jag valde
+            att göra det utan den, för att ha mer kontroll då det kan bli fel om klipper t.ex har fel mikro-kontroller
+            arkitektur så kan den inte kommunicera med skrivarens kort då de använder olika instruktionsset. För att
+            konfigurea dessa inställningar så måste man göra en menuconfig. Man gör det genom att först gå in i klipper
+            directoryt: <code>cd ~/klipper</code> och sedan <code>make menuconfig</code> vilket tog mig till Klipper
+            Firmware Configuration skärmen. Prusa i3 mk3 har ett Einsy RAMBo bräda med atmega2560 arkitektur, Einsy
+            RAMBo är då vad Prusa i3 mk3 logik bräda kallas, den använder ett AVR microchipp, därmed atmega2560 som
+            instruktionsset. Jag valde därefter att den ska flasha via USB, vilket behöver specifieras då det också är
+            möjligt att flasha via GPIO (Generella I/O portar). Sen escapade jag och sparade. Ursprungligen använde jag
+            KIAUH för det, men det blev fel på just det steget, alltså att den körde på fel arkitektur. Det gjorde så
+            att flashen failade utan att uppge detaljer, då KIAUH inte hjälper särskilt mycket just där. Det var inte
+            särskilt problematiskt att fixa då jag bara kunde göra den manuella metoden. Iallafall nu när jag
+            konifiguerat klipper firmware så kan jag flasha kortet genom att först stänga av klipper service, då det
+            startas automatiskt efter installation (Det är by standard på auto-start vid start av RPIn, så man behöver
+            inte fippla med det om man behöver flytta den eller ta ut sladden som ger den ström). För att stänga av det
+            skrev jag <code>sudo service klipper stop</code>, allt information finns då beskrivet i klippers
+            dokumentation länkat ovan (i en tidigare paragraf). Sen flashar man kortet med
+            <code>make flash FLASH_DEVICE=[Här stoppar man serial IDt av USB kopplingen till skrivaren]</code>. för att
+            få tag på IDt för USB porten så kan man köra kommandot <code>ls /dev/serial/by-id/*</code>; kommandot listar
+            alla USB kopplingars IDn, men i mitt fall så var Prusan den enda som användes. "ls" kommandot är ett väldigt grundläggande linux (debian, men inte exklusivt, då det används av typ alla distros) kommando som printar en lista av alla filer / mappar i en specifierad directory. RpiOS lagrar allt detta under dev/serial, där det även finns by-path, som är väldigt likt by-id, förutom att by ID är unikt till den kopplade enheten. Om det inte funkar (det funkade ändå direkt för mig) så kan man testa att använda by-path, då det varit ett känt problem som Klipper haft problem med det i tidigare versioner. När man kör det kommandot iallafall (make flash, alltså) så flashas 3D-skrivaren Einsy RAMBo kort med klipper firmware istället för vad som den då redan använder. Om allting funkar korrekt så kommer du även se i3ns skärm lysa upp och säga att den genomgår en "firmware update" (Jag menar alltså att det var det jag såg). Alla delar av klipper är nu installerade, så då gick det helt enkelt att öppna en webbläsare, för att sedan skriva in <a href="http://teprinter">http://teprinter</a>, jag använde först dens IP för att komma åt web-interfacet, men insåg att det faktiskt är bättre om man använder hostname, då det inte ändras.</p>
+        <h2>Steg 5: Konfigruera Klipper</h2>
+        <p>Nu är jag då på sista* steget (* sista där jag ändrar på saker, att testa eller diskutera hade väl också kunnat räknas som ett steg i uppgiften): att fixa konfiguera klipper som jag just installerat. Det mesta sköter man i "printer.cfg" i ~/klipper, där kan man sätta inställningar som: serial adress (USB) till den. det skriver man så här: <code>[mcu]<br>serial: /dev/by-id/[id, kan hämtas via metod nämnd tidigare (ls /dev/serial/by-id/*)]</code>. mcu står för micro-controller, och inställningen används för att låta klipper veta hur den hittar skrivarens kort (micro-controller). resterande inställningar i printer.cfg handlar mest om saker som maxacceleration, hastighet osv. på ditt toolhead för 3D-skrivaren. Jag tog där en template anpassad till Prusa i3 mk3 som fanns <a href="https://github.com/Klipper3d/klipper/blob/master/config/">här (länk)</a>. Det är generic-einsy-rambo.cfg som är gjord efter Prusa i3 mk3 (Jag nämnde Einsy RAMBo tidigare, där jag förklarade att det var vad i3:ans bräda kallades, den användes exklusivt för i3 mk3 serien). Jag har inte kollat in särskilt mycket i vilka parametrar som bör ändras, då det skulle kräva assistans av en lärare eftersom jag inte skulle röra något där. De nuvarande inställningarna ska funka till skrivaren men det går bara att verkligen veta genom att testa, oväntade problem kan komma från vart som helst (det är därför de är oväntade haha).</p>
+        <p>När jag var "klar", alltså att jag sattit upp det system som jag hade i uppgift att sätta upp (även fast vi inte testat skriva ut något än då det var en okalibrerad skrivare som jag dessutom uppmanades att inte försöka någon utskrift /Johannes). Då började jag att anpassa fluidd, genom att t.ex ändra på logotypen och titeln till Teknikprogrammet och dess logga, jag gjorde en egen animerad version av den med svg. Det tog ett tag, men det var en bra övning då jag lärde känna fluidd bättre i processen.</p>
+        <h2>Steg 6: Testa</h2>
+        <p>Detta steg kan jag inte skriva på ännu, men jag hoppas att det snart går då det hade varit intressant att se det funka (och fixa det utifall det av något skäl inte funkar.).</p>
+        <h2>Slutsats</h2>
+        <p>Jag tycker att detta var en bra uppgift anpassad till mig, då det hade varit ganska tråkigt att göra de dem andra gjorde eftersom jag redan hållit på med det tidigare. Jag spenderade ändå några lektioner åt att hjälpa andra i klassen, därför många frågade mig hur de skulle göra (både när de flashade sina, och ville sätta upp Rpi connect. Så jag har andå fått smakat på båda kakorna, och jag tycker min var rolig. Det var bra därför jag inte var familiär med klipper sen tidigare, utan bara hållit på med andra projekt på RPIs. Jag fick också lära mig lite om 3D-skrivande, vilket är extra bra då jag äger en själv. Den har däremot redan natively support för fjärrutskrifter, så jag har inte haft behov av detta just hemma. Jag hade även gärna tagit på fler uppdrag som dessa i skolan, även fast de inte är till en kurs, för att jag tycker bara att det är kul. Jag stötte aldrig på ett problem som inte jag snabbt kunde hitta en lösning till, förutom igår då jag satt utanför rummet i några timmar eftersom jag hade glömt att skrivaren var avstängd, och jag trodde att det var något annat skäl som jag inte kunde skicka instruktioner/hämta statistik till/från skrivaren. Jag trodde först att det berodde på MCU adressen, och att det var för att någonting gick fel med att använda by-id, men inget ändrades efter jag redigerade det till att vara by-path, jag testade även att använda en absolut path till den men ingenting funkade. PIen visade fortfarande USB anslutningen när jag körde "lsusb" kommandot, det ledde mig till att tro att problemet låg i firmware installationen, så jag försökte ominstallera det, men när jag gjorde det så kraschade installationen utan detaljer om vad som gick fel. Efter att ha kollat igenom hundratals reddit threads så kom jag på att sist jag var in dit, så stängde jag av skrivaren. Det var frustrerande men som tur är var det inget egentligt fel på någonting, förutom min oförmåga att komma ihåg saker som jag gjort. Jag har också sett till att lära mig allt som jag gått igenom, så att det inte var i onödan att göra uppgiften. Så jag är ganska säker nu i min förmåga att återskapa samma system igen utan hjälpen av klipper, fluidd, prusa eller debian dokumentation.</p>
+        <br>
+        <p>Om du har frågor angående detta, eller behöver fråga någonting för att göra en bedömning (utifall jag inte svarade nog utförligt på ett ämne som borde täckts mer) så svarar jag gärna på dem. Jag vet inte hur det kommer se ut för lärarna efter vi tar sommarlov, men jag ska försöka att ändå kolla till på teams om du/johannes/någon som behöver info om hur man ska göra skriver något.</p>
+        <p>Tack och bock.</p>
+        <p style="font-size: smaller;"><i>Noel Åström, DAODAC VT 2026</i></p>
+    </div>
+    <div class="wordcount-container">
+        <p>Words: <span id="wordcount"></span></p>
+        <p>
+            <script>document.write(document.location)</script>
+        </p>
+        <p><i>+200 stilpoäng för att dokumentera i formen av en html-sida på min hemsida</i></p>
+    </div>
+</body>
+
+</html>
