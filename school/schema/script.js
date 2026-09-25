@@ -36,6 +36,7 @@ async function visaSchema(id) {
         lesson.style.height=lessonDuration*table.children[1].offsetHeight/8-1+"px"
         lesson.style.backgroundColor=colors[lessonInfo[i].guidId]
         lesson.innerHTML=`<p>${lessonInfo[i].timeStart.slice(0,5).replace(/^0/,"")}</p><p>${lessonInfo[i].texts[0]}</p><p>${lessonInfo[i].texts[1]} <span style="float: right;">${lessonInfo[i].texts[2]}</span></p><p>${lessonInfo[i].timeEnd.slice(0,5).replace(/^0/,"")}</p>`
+        lesson.onclick = `alert("sigma")`
         table.children[1].children[lessonInfo[i]["dayOfWeekNumber"]].appendChild(lesson)
     }
 }

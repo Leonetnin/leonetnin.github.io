@@ -5,5 +5,8 @@ for (let i=0; i<tds.length; i++) {
     data=data[data.length-1].split(" - ")
     if (temadagar[data[0]]==undefined) {
         temadagar[data[0]] = [data[1]]
-    } 
+    } else {
+        temadagar[data[0]].push(data[1])
+    }
 }
+open("data:text/json,"+encodeURIComponent(JSON.stringify(temadagar)))

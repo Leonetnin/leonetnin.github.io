@@ -1,0 +1,11 @@
+{
+    "H": {
+        "name":{"SWE":"Väte","ENG":"Hydrogen"},
+        "atomnumber":1,
+        "atommass":244,
+        "group":1,
+        "period":1,
+        "electrions":[1],
+        "metal":"f"
+    }
+}

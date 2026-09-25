@@ -12,6 +12,7 @@
         <label>Red:<input></label>
         <label>Green:<input></label>
         <label>Blue:<input></label>
+        <label>Threshold:<input type="range" max="255" min="0" oninput="document.getElementById('slider').textContent=this.value; drawNool(this.value)"> <span id="slider"></span></label>
     </div>
     <button onclick="window.drawCool()">Submit</button>
     <div class="canvas">
