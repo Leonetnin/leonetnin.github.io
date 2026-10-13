@@ -12,7 +12,7 @@ for (let i=0; i<canvas.length; i++) {
 let result = new ImageData(canvas[1].width, canvas[1].height)
 
 let input = new Image()
-input.src = "rock.png"
+input.src = "matt.png"
 
 input.onload = () => {
     ctx[0].fillStyle="white"
@@ -47,10 +47,10 @@ function drawFool(thres) {
             pixel[["red","green","blue"][j]].push(result.data[y+j-canvas.width*4])
         }
         for (let j=0; j<5; j++){
-            avg.push[(pixel["red"][j]+pixel["green"][j]+pixel["blue"][j])/3]
+            avg.push((pixel["red"][j]+pixel["green"][j]+pixel["blue"][j])/3)
         }
         console.log(avg)
-        if ((avg[0]-avg[1])>0){
+        if ((avg[0]-avg[1]+3)>0){
             result.data[y]=255
             result.data[y+1]=255
             result.data[y+2]=255
@@ -61,6 +61,10 @@ function drawFool(thres) {
             result.data[y+2]=0
             result.data[y+3]=255 
         }
+        // result.data[y]=avg[0]-avg[1]
+        // result.data[y+1]=avg[0]-avg[1]
+        // result.data[y+2]=avg[0]-avg[1]
+        // result.data[y+3]=255 
         // result.data[y]=avg
         // result.data[y+1]=avg
         // result.data[y+2]=avg
@@ -75,17 +79,17 @@ function drawNool(thres) {
     for (let y=0; y<result.data.length; y+=4) {
         let red = result.data[y]
         let green = result.data[y+1]
-        let blue = result.data[y+1]
+        let blue = result.data[y+2]
         let avg = (red+green+blue)/3
         if (avg>thres){
-            result.data[y]=255
-            result.data[y+1]=255
-            result.data[y+2]=255
-            result.data[y+3]=255
-        } else {
             result.data[y]=0
             result.data[y+1]=0
             result.data[y+2]=0
+            result.data[y+3]=255
+        } else {
+            result.data[y]=red
+            result.data[y+1]=green
+            result.data[y+2]=blue
             result.data[y+3]=255 
         }
         // result.data[y]=avg

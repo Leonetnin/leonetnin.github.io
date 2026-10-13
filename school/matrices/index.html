@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrices</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gausselimination</h1>
+    </header>
+    <main>
+        <div class="input-field">
+            <textarea id="inp" rows="3"></textarea>
+            <button onclick="solve()">Lös!</button>
+            <p id="errformat" hidden>Ogiltigt format</p>
+        </div>
+        <div>
+            <p id="steps"></p>
+            <p id="answer"></p>
+        </div>
+    </main>
+</body>
+</html>
