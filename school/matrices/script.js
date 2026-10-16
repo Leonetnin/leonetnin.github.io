@@ -51,6 +51,7 @@ function solve() {
     first[2]["y"]=0
     first[2]["z"]-=factor*first[1]["z"]
     first[2]["r"]-=factor*first[1]["r"]
+    alert(factor)
 
     addStep(snygg(first))
 
